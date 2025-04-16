@@ -32,28 +32,61 @@
   background-color: aqua;
 }
 
-
-
-
-
-
-
 .homeImagesFullScreen {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.94);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  cursor: pointer;
 }
 
 .homeImagesFullScreenImage {
   max-width: 90%;
   max-height: 90%;
-  border-radius: 8px;
+}
+
+.homeImagesFullScreenClose {
+    cursor: pointer;
+}
+
+.homeImagesFullScreenCloseIcon {
+    color: #CBCBCB;
+    position: absolute;
+    width: 35px;
+    height: auto;
+    top: 20px;
+    right: 20px;
+}
+
+.homeImagesFullScreenBackIcon,
+.homeImagesFullScreenNextIcon {
+    width: 30px;
+    height: auto;
+    color: #C9C9C9;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeImagesFullScreenBackIcon:hover,
+.homeImagesFullScreenNextIcon:hover {
+    color: #FFFFFF;
+    transform: scale(1.1);
+
+}
+
+.homeImagesFullScreenBackIcon {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+.homeImagesFullScreenNextIcon {
+    position: absolute;
+    right: 1%;
+    top: 50%;
 }
