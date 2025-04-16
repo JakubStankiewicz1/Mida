@@ -1,11 +1,10 @@
 .navbar {
   width: 100%;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  /* padding-bottom: 30px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: transparent;
 }
 
 .navbarContainer {
@@ -14,6 +13,7 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
+  padding: 20px;
 }
 
 .navbarContainerLeft {
@@ -41,7 +41,8 @@
   gap: 20px;
 }
 
-.navbarContainerRightContainerEle {
+.navbarContainerRightContainerEle,
+.navbarContainerLeftContainerEle {
   display: flex;
   flex-direction: column;
 }
@@ -79,25 +80,26 @@
   color: #fff;
 }
 
-.navbarContainerRightContainerEleDropdownMenu {
+.navbarContainerRightContainerEleDropdownMenu,
+.navbarContainerRightContainerEleDropdownMenuOne {
   position: absolute;
   background-color: #000;
-  /* width: 200px; */
-  /* height: 100px; */
-  /* margin-top: 100px; */
-  padding-top: 30px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-top: 35px;
-  visibility: 0;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.navbarContainerRightContainerEleDropdownMenuContainerNavLink {
+.navbarContainerRightContainerEleDropdownMenuContainerNavLink,
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne {
   text-decoration: none;
 }
 
-.navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText {
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText,
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
   font-size: 14px;
   color: #eddfe0;
   font-weight: 700;
@@ -114,9 +116,23 @@
   color: #fff;
 }
 
-.navbarContainerRightContainerNavbar:hover
-  .navbarContainerRightContainerEleDropdownMenu {
-  display: block;
-  visibility: 100;
-  position: absolute;
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne:hover
+  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
+  color: #fff;
 }
+
+.navbarContainerRightContainerNavbar:hover
+  + .navbarContainerRightContainerEleDropdownMenu,
+.navbarContainerRightContainerEleDropdownMenu:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.navbarContainerLeftContainerNavbar:hover
+  + .navbarContainerRightContainerEleDropdownMenuOne,
+  .navbarContainerRightContainerEleDropdownMenuOne:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  }
