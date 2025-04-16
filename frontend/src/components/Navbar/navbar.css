@@ -64,6 +64,10 @@
   position: relative;
 }
 
+.navbarContainerLeftContainerNavbarContainer {
+  cursor: pointer;
+}
+
 .navbarContainerLeftContainerNavbarContainerText,
 .navbarContainerRightContainerNavbarContainerText {
   font-size: 14px;
@@ -71,6 +75,24 @@
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbarContainerLeftContainerNavbar:hover,
+.navbarContainerRightContainerNavbar:hover,
+.navbarContainerLeftContainerEle:hover,
+.navbarContainerRightContainerEle:hover {
+  cursor: pointer;
+}
+
+.navbarContainerLeftContainerNavbar:hover,
+.navbarContainerRightContainerNavbar:hover {
+  cursor: pointer;
+}
+
+.navbarContainerRightContainerEle:hover .navbarContainerLeftContainerNavbarContainerText,
+.navbarContainerRightContainerNavbar:hover .navbarContainerRightContainerNavbarContainerText {
+  color: #fff;
 }
 
 .navbarContainerLeftContainerNavbar:hover
@@ -78,19 +100,25 @@
 .navbarContainerRightContainerNavbar:hover
   .navbarContainerRightContainerNavbarContainerText {
   color: #fff;
+  cursor: pointer;
 }
 
 .navbarContainerRightContainerEleDropdownMenu,
 .navbarContainerRightContainerEleDropdownMenuOne {
   position: absolute;
-  background-color: #000;
+  background: linear-gradient(to bottom, transparent 42px, #000 16px);
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-top: 35px;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.navbarContainerRightContainerEleDropdownMenuContainerOne {
+  margin-top: 44px;
 }
 
 .navbarContainerRightContainerEleDropdownMenuContainerNavLink,
@@ -101,38 +129,49 @@
 .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText,
 .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
   font-size: 14px;
-  color: #eddfe0;
+  color: #B3B3B3;
   font-weight: 700;
-  transition: all 0.3s ease-in-out;
+  transition: color 0.3s ease 0.2s;
   text-transform: uppercase;
   padding-top: 7px;
   padding-left: 21px;
   padding-bottom: 7px;
   padding-right: 21px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.navbarContainerRightContainerEleDropdownMenuContainerNavLink:hover
-  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText {
-  color: #fff;
-}
-
-.navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne:hover
-  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
-  color: #fff;
-}
 
 .navbarContainerRightContainerNavbar:hover
   + .navbarContainerRightContainerEleDropdownMenu,
-.navbarContainerRightContainerEleDropdownMenu:hover {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
+.navbarContainerRightContainerEleDropdownMenu:hover,
 .navbarContainerLeftContainerNavbar:hover
   + .navbarContainerRightContainerEleDropdownMenuOne,
-  .navbarContainerRightContainerEleDropdownMenuOne:hover {
+.navbarContainerRightContainerEleDropdownMenuOne:hover {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  }
+  transform: scaleY(1);
+}
+
+.navbarContainerRightContainerNavbar:hover
+  + .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText,
+.navbarContainerRightContainerEleDropdownMenu:hover
+  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText,
+.navbarContainerLeftContainerNavbar:hover
+  + .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne,
+.navbarContainerRightContainerEleDropdownMenuOne:hover
+  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
+  color: #b3b3b3;
+}
+
+.navbarContainerLeftContainerEle:hover .navbarContainerLeftContainerNavbarContainerText,
+.navbarContainerRightContainerEle:hover .navbarContainerRightContainerNavbarContainerText,
+.navbarContainerLeftContainerNavbar:hover .navbarContainerLeftContainerNavbarContainerText,
+.navbarContainerRightContainerNavbar:hover .navbarContainerRightContainerNavbarContainerText {
+  color: #fff; 
+}
+
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne:hover .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne {
+  color: #fff;
+}
