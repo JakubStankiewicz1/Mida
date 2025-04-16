@@ -1,0 +1,177 @@
+.makeReservation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.makeReservationContainer {
+    background-color: #C19396;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeReservationTopContainerText {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+}
+
+.makeReservationMiddle {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.makeReservationMiddleContainerFirstContainerSelect {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #D8D9DB;
+    font-size: 16px;
+    font-weight: 800;
+    color: #2D333F;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.makeReservationMiddleContainerDate {
+    margin-top: 20px;
+    /* border: 1px solid #D8D9DB; */
+}
+
+.makeReservationMiddleContainerDateContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #D8D9DB;
+}
+
+.makeReservationMiddleContainerDateContainer:hover {
+    border-color: #A0A0A0;
+}
+
+.makeReservationMiddleContainerDateText {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 800;
+    color: #2D333F;
+    padding-left: 40px;
+}
+
+.customSelectWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #D8D9DB;
+    cursor: pointer;
+}
+
+.customSelectWrapper:hover {
+    border-color: #A0A0A0;
+}
+
+.customSelectWrapper select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #D8D9DB;
+    font-size: 16px;
+    font-weight: 800;
+    color: #2D333F;
+    padding-left: 40px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.customSelectWrapper option {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #D8D9DB;
+    font-size: 16px;
+    font-weight: 800;
+    color: #2D333F;
+    cursor: pointer;
+}
+
+.customSelectIcon {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+    color: #2D333F;
+}
+
+.customSelectIconLeft {
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
+    color: #2D333F;
+    font-size: 18px;
+}
+
+.makeReservationMiddleContainerSecondContainerIcon,
+.makeReservationMiddleContainerThirdContainerIcon {
+    position: absolute;
+    left: 10px;
+    color: #2D333F;
+    font-size: 18px;
+}
+
+.makeReservationBottom {
+    width: 100%;
+}
+
+.makeReservationBottomContainerBtn {
+    background-color: #0A0A0A;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.makeReservationBottomContainerBtn:hover {
+    background-color: #333333;
+}
+
+.makeReservationBottomContainerBtnText {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+
+.datePicker {
+    margin-top: 10px;
+}
