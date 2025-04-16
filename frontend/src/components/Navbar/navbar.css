@@ -1,0 +1,73 @@
+.navbar {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* padding-bottom: 30px; */
+}
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbarContainerLeft {
+  width: 100%;
+  height: 100%;
+}
+
+.navbarContainerLeftContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbarContainerRight {
+  width: 100%;
+}
+
+.navbarContainerRightContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbarContainerMiddleContainerImage {
+  width: 185px;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbarContainerLeftContainerNavbar,
+.navbarContainerRightContainerNavbar {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.navbarContainerLeftContainerNavbarContainerText,
+.navbarContainerRightContainerNavbarContainerText {
+  font-size: 14px;
+  color: #eddfe0;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarContainerLeftContainerNavbar:hover
+  .navbarContainerLeftContainerNavbarContainerText,
+.navbarContainerRightContainerNavbar:hover
+  .navbarContainerRightContainerNavbarContainerText {
+  color: #fff;
+}
