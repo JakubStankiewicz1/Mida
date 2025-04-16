@@ -5,6 +5,7 @@ import HomeOrder from "../../components/HomeOrder/HomeOrder";
 import About from "../../components/About/About";
 import HomeOwner from "../../components/HomeOwner/HomeOwner";
 import HomeImages from "../../components/HomeImages/HomeImages";
+import Fotter from "../../components/Fotter/Fotter";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <HomeOwner />
         <HomeOrder />
         <HomeImages />
+        <Fotter />
       </div>
     </div>
   );
