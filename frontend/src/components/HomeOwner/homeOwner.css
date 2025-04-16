@@ -1,24 +1,31 @@
 .homeOwner {
     display: flex;
     width: 100%;
-    height: auto; /* Ensure it adjusts to content height */
-    position: relative; /* Prevent interference with other components */
-    margin-top: 50px; /* Add spacing from the previous section */
+    height: auto;
+    position: relative;
+    margin-top: 50px;
 }
 
 .homeOwnerContainer {
     width: 100%;
-    height: 100%;
+    height: 500px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .homeOwnerContainerImage {
     position: relative;
     width: 100%;
+    height: 100%;
+    max-height: 500px;
 }
 
 .homeOwnerContainerImageContainer {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .homeOwnerContainerImageOverlay {
@@ -27,17 +34,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     pointer-events: none;
 }
 
 .homeOwnerContainerImageContainerImage {
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
-    background-size: inherit;
-    object-position: 5% 45%;
     position: relative;
     z-index: 0;
 }
@@ -49,7 +54,6 @@
     transform: translate(-50%, -50%); 
     z-index: 2; 
     color: #FFFFFF; 
-    /* background-color: lightblue; */
     width: 80%;
 }
 

@@ -4,6 +4,7 @@ import HomeHero from "../../components/HomeHero/HomeHero";
 import HomeOrder from "../../components/HomeOrder/HomeOrder";
 import About from "../../components/About/About";
 import HomeOwner from "../../components/HomeOwner/HomeOwner";
+import HomeImages from "../../components/HomeImages/HomeImages";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <About /> 
         <HomeOwner />
         <HomeOrder />
+        <HomeImages />
       </div>
     </div>
   );
