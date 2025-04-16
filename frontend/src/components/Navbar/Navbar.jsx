@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import assets from "../../assets/assets";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [eventsDropdownMenu, setEventsDropdownMenu] = useState(false);
+
   return (
     <div className="navbar">
       <div className="navbarContainer">
@@ -53,14 +55,47 @@ const Navbar = () => {
         {/* Right Part */}
         <div className="navbarContainerRight">
           <div className="navbarContainerRightContainer">
-            {/* Navbar Element */}
-            <NavLink className="navbarContainerRightContainerNavbar">
-              <div className="navbarContainerRightContainerNavbarContainer">
-                <p className="navbarContainerRightContainerNavbarContainerText">
-                  Events
-                </p>
+            <div className="navbarContainerRightContainerEle">
+              {/* Navbar Element */}
+              <NavLink className="navbarContainerRightContainerNavbar">
+                <div className="navbarContainerRightContainerNavbarContainer">
+                  <p className="navbarContainerRightContainerNavbarContainerText">
+                    Events
+                  </p>
+                </div>
+              </NavLink>
+
+              <div className="navbarContainerRightContainerEleDropdownMenu">
+                <div className="navbarContainerRightContainerEleDropdownMenuContainer">
+                  {/* NavLink Element */}
+                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLink">
+                    <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainer">
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText">
+                        Mida East Boston Events
+                      </p>
+                    </div>
+                  </NavLink>
+
+                  {/* NavLink Element */}
+                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLink">
+                    <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainer">
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText">
+                        Mida Newton Events
+                      </p>
+                    </div>
+                  </NavLink>
+
+                  {/* NavLink Element */}
+                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLink">
+                    <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainer">
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText">
+                        Mida South End Events
+                      </p>
+                    </div>
+                  </NavLink>
+                </div>
               </div>
-            </NavLink>
+            </div>
 
             {/* Navbar Element */}
             <NavLink className="navbarContainerRightContainerNavbar">

@@ -41,6 +41,11 @@
   gap: 20px;
 }
 
+.navbarContainerRightContainerEle {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbarContainerMiddleContainerImage {
   width: 185px;
   height: auto;
@@ -55,6 +60,7 @@
   padding-left: 10px;
   padding-right: 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .navbarContainerLeftContainerNavbarContainerText,
@@ -63,6 +69,7 @@
   color: #eddfe0;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .navbarContainerLeftContainerNavbar:hover
@@ -70,4 +77,46 @@
 .navbarContainerRightContainerNavbar:hover
   .navbarContainerRightContainerNavbarContainerText {
   color: #fff;
+}
+
+.navbarContainerRightContainerEleDropdownMenu {
+  position: absolute;
+  background-color: #000;
+  /* width: 200px; */
+  /* height: 100px; */
+  /* margin-top: 100px; */
+  padding-top: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 35px;
+  visibility: 0;
+  display: none;
+}
+
+.navbarContainerRightContainerEleDropdownMenuContainerNavLink {
+  text-decoration: none;
+}
+
+.navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText {
+  font-size: 14px;
+  color: #eddfe0;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-left: 21px;
+  padding-bottom: 7px;
+  padding-right: 21px;
+}
+
+.navbarContainerRightContainerEleDropdownMenuContainerNavLink:hover
+  .navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerText {
+  color: #fff;
+}
+
+.navbarContainerRightContainerNavbar:hover
+  .navbarContainerRightContainerEleDropdownMenu {
+  display: block;
+  visibility: 100;
+  position: absolute;
 }
