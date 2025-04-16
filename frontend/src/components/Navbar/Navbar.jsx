@@ -15,21 +15,15 @@ const Navbar = () => {
             {/* Navbar Element */}
             <NavLink className="navbarContainerLeftContainerNavbar">
               <div className="navbarContainerLeftContainerNavbarContainer">
-                <p className="navbarContainerLeftContainerNavbarContainerText">
-                  Home
-                </p>
+                <p className="navbarContainerLeftContainerNavbarContainerText">Home</p>
               </div>
             </NavLink>
 
-
-
             {/* Navbar Element */}
             <div className="navbarContainerLeftContainerEle">
               <NavLink className="navbarContainerLeftContainerNavbar">
                 <div className="navbarContainerLeftContainerNavbarContainer">
-                  <p className="navbarContainerLeftContainerNavbarContainerText">
-                    Locations/menus
-                  </p>
+                  <p className="navbarContainerLeftContainerNavbarContainerText">Locations/menus</p>
                 </div>
               </NavLink>
 
@@ -38,62 +32,46 @@ const Navbar = () => {
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida East Boston
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida East Boston</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida Newton
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Newton</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida South End
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida South End</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida Fenway
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Fenway</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        APIZZA
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">APIZZA</p>
                     </div>
                   </NavLink>
                 </div>
               </div>
-
-
-
             </div>
 
-
             {/* Navbar Element */}
             <div className="navbarContainerLeftContainerEle">
               <NavLink className="navbarContainerLeftContainerNavbar">
                 <div className="navbarContainerLeftContainerNavbarContainer">
-                  <p className="navbarContainerLeftContainerNavbarContainerText">
-                    Catering
-                  </p>
+                  <p className="navbarContainerLeftContainerNavbarContainerText">Catering</p>
                 </div>
               </NavLink>
 
@@ -102,26 +80,18 @@ const Navbar = () => {
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida Catering
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Catering</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        APIZZA Catering
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">APIZZA Catering</p>
                     </div>
                   </NavLink>
                 </div>
               </div>
-
-
-
-
             </div>
           </div>
         </div>
@@ -129,30 +99,18 @@ const Navbar = () => {
         {/* Middle Part */}
         <div className="navbarContainerMiddle">
           <NavLink className="navbarContainerMiddleContainer">
-            <img
-              src={assets.mainLogo}
-              alt=""
-              className="navbarContainerMiddleContainerImage"
-            />
+            <img src={assets.mainLogo} alt="" className="navbarContainerMiddleContainerImage" />
           </NavLink>
         </div>
 
         {/* Right Part */}
         <div className="navbarContainerRight">
           <div className="navbarContainerRightContainer">
-
-
-
-
-
-
             <div className="navbarContainerRightContainerEle">
               {/* Navbar Element */}
               <NavLink className="navbarContainerLeftContainerNavbar">
                 <div className="navbarContainerLeftContainerNavbarContainer">
-                  <p className="navbarContainerLeftContainerNavbarContainerText">
-                    Events
-                  </p>
+                  <p className="navbarContainerLeftContainerNavbarContainerText">Events</p>
                 </div>
               </NavLink>
 
@@ -161,55 +119,38 @@ const Navbar = () => {
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida East Boston Events
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida East Boston Events</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida Newton Events
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Newton Events</p>
                     </div>
                   </NavLink>
 
                   {/* NavLink Element */}
                   <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
-                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">
-                        Mida South End Events
-                      </p>
+                      <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida South End Events</p>
                     </div>
                   </NavLink>
                 </div>
               </div>
             </div>
 
-
-
-
-
-
-            
-
             {/* Navbar Element */}
             <NavLink className="navbarContainerRightContainerNavbar">
               <div className="navbarContainerRightContainerNavbarContainer">
-                <p className="navbarContainerRightContainerNavbarContainerText">
-                  Work here
-                </p>
+                <p className="navbarContainerRightContainerNavbarContainerText">Work here</p>
               </div>
             </NavLink>
 
             {/* Navbar Element */}
             <NavLink className="navbarContainerRightContainerNavbar">
               <div className="navbarContainerRightContainerNavbarContainer">
-                <p className="navbarContainerRightContainerNavbarContainerText">
-                  Gift cards
-                </p>
+                <p className="navbarContainerRightContainerNavbarContainerText">Gift cards</p>
               </div>
             </NavLink>
           </div>

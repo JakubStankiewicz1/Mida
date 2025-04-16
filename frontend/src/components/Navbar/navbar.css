@@ -1,10 +1,11 @@
 .navbar {
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
+  /* top: 0; */
+  /* left: 0; */
+  z-index: 1000;
   background-color: transparent;
+  /* background-color: red; */
 }
 
 .navbarContainer {
@@ -12,7 +13,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 36px;
   padding: 20px;
 }
 
@@ -24,7 +25,7 @@
 .navbarContainerLeftContainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 20px;
 }
@@ -36,7 +37,7 @@
 .navbarContainerRightContainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
