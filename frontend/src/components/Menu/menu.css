@@ -1,0 +1,75 @@
+.menu {
+    /* width: 72%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.menuContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menuContainerTopContainerText {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menuCategorySelector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.menuProductDivider {
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menuContainerMiddleContainerDivProducts {
+    margin-top: 50px;
+}
+
+.menuContainerMiddleContainerDivProductsList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuContainerMiddleContainerDivProductsListLeftContainerTextOne {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menuContainerMiddleContainerDivProductsListLeftContainerTextTwo {
+    color: #545454;
+}
+
+.menuContainerMiddleContainerDivProductsListLeftContainerTextOne {
+
+}
+
+
+
+.menuContainerMiddleContainerDivProductsListLeftContainerTextThree {
+    color: #000000;
+}

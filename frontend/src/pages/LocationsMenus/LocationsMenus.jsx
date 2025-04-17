@@ -5,6 +5,7 @@ import LocationHero from "../../components/LocationHero/LocationHero";
 import HomeOrder from "../../components/HomeOrder/HomeOrder";
 import assets from "../../assets/assets";
 import LocationReservation from "../../components/LocationReservation/LocationReservation";
+import Menu from "../../components/Menu/Menu";
 
 const LocationsMenus = () => {
   return (
@@ -228,6 +229,9 @@ const LocationsMenus = () => {
               <div className="locationsMenusContainerMainHrContainerDiv" />
             </div>
           </div>
+
+
+          <Menu />
 
 
 
