@@ -87,7 +87,7 @@ const LocationsMenus = () => {
 
 
 
-                  
+
                   {/* Left Part */}
                   <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeft">
                     <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainer">
@@ -199,6 +199,9 @@ const LocationsMenus = () => {
                           </div>
                         </div>
                       </div>
+
+                      
+
                     </div>
                   </div>
 
@@ -216,6 +219,18 @@ const LocationsMenus = () => {
               </div>
             </div>
           </div>
+
+
+
+          {/* Hr Element */}
+          <div className="locationsMenusContainerMainHr">
+            <div className="locationsMenusContainerMainHrContainer">
+              <div className="locationsMenusContainerMainHrContainerDiv" />
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
