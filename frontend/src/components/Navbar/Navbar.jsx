@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="navbarContainerLeft">
           <div className="navbarContainerLeftContainer">
             {/* Navbar Element */}
-            <NavLink className="navbarContainerLeftContainerNavbar">
+            <NavLink to="/" className="navbarContainerLeftContainerNavbar">
               <div className="navbarContainerLeftContainerNavbarContainer">
                 <p className="navbarContainerLeftContainerNavbarContainerText">Home</p>
               </div>
@@ -141,7 +141,7 @@ const Navbar = () => {
             </div>
 
             {/* Navbar Element */}
-            <NavLink className="navbarContainerRightContainerNavbar">
+            <NavLink to="/work-here" className="navbarContainerRightContainerNavbar">
               <div className="navbarContainerRightContainerNavbarContainer">
                 <p className="navbarContainerRightContainerNavbarContainerText">Work here</p>
               </div>

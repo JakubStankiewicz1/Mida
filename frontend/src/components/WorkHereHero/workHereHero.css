@@ -1,0 +1,44 @@
+.workHereHero {
+    display: flex;
+    width: 100%;
+}
+
+.workHereHeroContainer {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    /* align-items: center; */
+}
+
+.workHereHeroContainerFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.workHereHeroContainerFirstContainerText {
+    color: #1F1613;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 48px;
+}
+
+.workHereHeroContainerSecond {
+    margin-top: 20px;
+}
+
+.workHereHeroContainerSecondContainerText {
+    color: #404040;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}
