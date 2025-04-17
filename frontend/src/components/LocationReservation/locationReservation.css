@@ -1,0 +1,22 @@
+.locationReservation {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: lightcyan;
+}
+
+.locationReservationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationReservationContainerTopContainerBtn {
+    width: 130px;
+    height: 50px;
+    background-color: #000000;
+}
+
+.locationReservationContainerTopContainerBtnText {
+    color: #FFFFFF
+}

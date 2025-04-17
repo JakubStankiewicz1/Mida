@@ -4,6 +4,7 @@ import NavbarDarkFixed from '../../components/NavbarDarkFixed/NavbarDarkFixed';
 import LocationHero from '../../components/LocationHero/LocationHero';
 import HomeOrder from '../../components/HomeOrder/HomeOrder';
 import assets from "../../assets/assets";
+import LocationReservation from '../../components/LocationReservation/LocationReservation';
 
 const LocationsMenus = () => {
   return (
@@ -14,6 +15,7 @@ const LocationsMenus = () => {
 
           <div className="locationsMenusContainerMain">
             <LocationHero image={assets.locationOne} name={"Mida East Boston"} />
+            <LocationReservation />
           </div>
         </div>
     </div>
