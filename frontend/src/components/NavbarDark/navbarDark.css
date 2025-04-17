@@ -1,0 +1,135 @@
+.navbarDark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1000;
+}
+
+.navbarDarkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarDarkContainerNavLink {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.navbarDarkContainerNavLinkOne,
+.navbarDarkContainerNavLinkTwo,
+.navbarDarkContainerNavLinkThree {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbarDarkContainerNavLinkOne:hover .navbarDarkContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkContainerNavLinkTwo:hover .navbarDarkContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkContainerNavLinkThree:hover .navbarDarkContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkContainerNavLinkContainerText {
+    color: #B7B7B7;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbarDarkContainerNavLink:hover .navbarDarkContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkDropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #171717;
+  padding: 10px 0;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  z-index: 1000;
+  /* width: 200px; */
+}
+
+.navbarDarkDropdownMenuTwo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 180px;
+}
+
+.navbarDarkDropdownMenuThree {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 250px;
+}
+
+.navbarDarkDropdownMenuItem {
+  display: block;
+  padding: 10px 20px;
+  color: #b7b7b7;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarDarkDropdownMenuItem:hover {
+    color: #fff;
+}
+
+.navbarDarkDropdownMenuOne,
+.navbarDarkDropdownMenuTwo,
+.navbarDarkDropdownMenuThree {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 250px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.navbarDarkDropdownMenuOne {
+    width: 195px;
+}
+
+.navbarDarkDropdownMenuOne.visible,
+.navbarDarkDropdownMenuTwo.visible,
+.navbarDarkDropdownMenuThree.visible {
+  max-height: 300px;
+  padding: 10px 0;
+}

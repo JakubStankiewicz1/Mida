@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
+import NavbarDark from "./components/NavbarDark/NavbarDark";
 
 const App = () => {
+
+
   return (
     <div className="app">
-      <Navbar className="appNavbar" />
+      {/* {showNavbarDark && <NavbarDark />} */}
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

@@ -9,3 +9,19 @@
     margin: 0;
     padding: 0;
 }
+
+.homeContainerNavbarDark {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    transform: translateY(0);
+    transition: all 0.2s ease-in-out;
+    z-index: 2000;
+}
+
+.homeContainerNavbarDark.show {
+    top: 0; /* Slide into view */
+    transform: translateY(0);
+}
+
