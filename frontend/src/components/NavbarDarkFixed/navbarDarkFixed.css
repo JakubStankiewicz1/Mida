@@ -1,0 +1,139 @@
+.navbarDarkFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1000;
+  height: 70px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarDarkFixedContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbarDarkFixedContainerNavLink {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.navbarDarkFixedContainerLeft,
+.navbarDarkFixedContainerRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarDarkFixedContainerNavLinkOne,
+.navbarDarkFixedContainerNavLinkTwo,
+.navbarDarkFixedContainerNavLinkThree {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbarDarkFixedContainerNavLinkOne:hover .navbarDarkFixedContainerNavLinkContainerText,
+.navbarDarkFixedContainerNavLinkTwo:hover .navbarDarkFixedContainerNavLinkContainerText,
+.navbarDarkFixedContainerNavLinkThree:hover .navbarDarkFixedContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkFixedContainerNavLinkContainerText {
+    color: #B7B7B7;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbarDarkFixedContainerNavLink:hover .navbarDarkFixedContainerNavLinkContainerText {
+    color: #FFFFFF;
+}
+
+.navbarDarkFixedDropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #171717;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbarDarkFixedDropdownMenuTwo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 180px;
+}
+
+.navbarDarkFixedDropdownMenuThree {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 250px;
+}
+
+.navbarDarkFixedDropdownMenuItem {
+  display: block;
+  padding: 10px 20px;
+  color: #b7b7b7;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarDarkFixedDropdownMenuItem:hover {
+    color: #fff;
+}
+
+.navbarDarkFixedDropdownMenuOne,
+.navbarDarkFixedDropdownMenuTwo,
+.navbarDarkFixedDropdownMenuThree {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 250px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.navbarDarkFixedDropdownMenuOne {
+    width: 195px;
+}
+
+.navbarDarkFixedDropdownMenuOne.visible,
+.navbarDarkFixedDropdownMenuTwo.visible,
+.navbarDarkFixedDropdownMenuThree.visible {
+  max-height: 300px;
+  padding: 10px 0;
+}

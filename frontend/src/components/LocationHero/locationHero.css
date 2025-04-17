@@ -1,0 +1,57 @@
+.locationHero {
+  height: 90vh;
+  position: relative;
+}
+
+.locationHeroContainer {
+  height: 100%;
+  position: relative;
+}
+
+.locationHeroContainerImage {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.locationHeroContainerImageContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.locationHeroContainerImageContainerImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.locationHeroContainerImageContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.locationHeroContainerName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.locationHeroContainerNameContainerText {
+  color: #fff;
+  font-size: 68px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
