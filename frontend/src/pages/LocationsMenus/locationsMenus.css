@@ -2,3 +2,71 @@
     /* padding-top: 1000px; */
     padding-bottom: 1000px;
 }
+
+.locationsMenusContainerMainText {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locationsMenusContainerMainTextContainerText {
+    color: #404040;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.locationsMenusContainerMainButton {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.locationsMenusContainerMainButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationsMenusContainerMainButtonContainerBtn {
+    width: 190px;
+    background-color: #000000;
+    height: 50px;
+    cursor: pointer;
+}
+
+.locationsMenusContainerMainButtonContainerBtnText {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.locationsMenusContainerMainTel {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.locationsMenusContainerMainTelContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationsMenusContainerMainTelContainerText {
+    color: #1F1613;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

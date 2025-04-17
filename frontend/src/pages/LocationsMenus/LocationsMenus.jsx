@@ -16,6 +16,63 @@ const LocationsMenus = () => {
           <div className="locationsMenusContainerMain">
             <LocationHero image={assets.locationOne} name={"Mida East Boston"} />
             <LocationReservation />
+
+            {/* Text Section */}
+            <div className="locationsMenusContainerMainText">
+              <div className="locationsMenusContainerMainTextContainer">
+
+                <p className="locationsMenusContainerMainTextContainerText">
+                Reservations can be made in advance through OpenTable or by phone. We do not accept reservations via email or social media. We do not take reservations for the bar or patio. Reservations are recommended for parties of 6 or more. For parties of 10 or more, please contact us directly at
+                </p>
+
+                <p className="locationsMenusContainerMainTextContainerText">
+                For parties of 5-8 guests, reservations can be made between 4:00pm - 6:00pm and at 8:00pm or later by calling the restaurant directly. A credit card is required at the time of booking to secure a reservation.
+
+
+                </p>
+
+                <p className="locationsMenusContainerMainTextContainerText">
+                Patio reservations are available on a same-day first-come basis only. Please call the restaurant the day of to secure patio seating. Requests for patio tables made through Open Table are not guaranteed. Patio availability is subject to change due to inclement weather.
+
+
+                </p>
+
+                <p className="locationsMenusContainerMainTextContainerText">
+                Parties of 9 or more people are considered a large group event.  
+
+
+                </p>
+
+                <p className="locationsMenusContainerMainTextContainerText">
+                If you are interested in having a large party here at MIDA EAST BOSTON, please click on the Event Inquiry button below and fill out an inquiry form.  Please note that we do not have a private dining room, only semi-private areas.
+
+
+                </p>
+
+              </div>
+            </div>
+
+            {/* Button Event Inquiry */}
+            <div className="locationsMenusContainerMainButton">
+              <div className="locationsMenusContainerMainButtonContainer">
+                <div className="locationsMenusContainerMainButtonContainerBtn">
+                  <p className="locationsMenusContainerMainButtonContainerBtnText">
+                    Event Inquiry
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Tel Number */}
+            <div className="locationsMenusContainerMainTel">
+              <div className="locationsMenusContainerMainTelContainer">
+                <p className="locationsMenusContainerMainTelContainerText">
+                  Tel: 617-996-1224
+                </p>
+              </div>
+            </div>
+
+
           </div>
         </div>
     </div>
