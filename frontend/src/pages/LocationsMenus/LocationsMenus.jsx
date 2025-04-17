@@ -72,6 +72,13 @@ const LocationsMenus = () => {
               </div>
             </div>
 
+            {/* Hr Element */}
+            <div className="locationsMenusContainerMainHr">
+              <div className="locationsMenusContainerMainHrContainer">
+                <div className='locationsMenusContainerMainHrContainerDiv' />
+              </div>
+            </div>
+
 
           </div>
         </div>

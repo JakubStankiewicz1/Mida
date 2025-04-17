@@ -70,3 +70,21 @@
     text-align: center;
     letter-spacing: 0.5px;
 }
+
+.locationsMenusContainerMainHr {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.locationsMenusContainerMainHrContainer {
+    display: flex;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locationsMenusContainerMainHrContainerDiv {
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+}
