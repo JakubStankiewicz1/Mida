@@ -65,7 +65,7 @@ const MidaNewtonEvents = () => {
                     {/* Left Part */}
                     <div className="midaEastBostonEventsContainerSecondContainerLeft">
                         <div className="midaEastBostonEventsContainerSecondContainerLeftContainer">
-                            <img src={assets.eventsImgOne} alt="" className='midaEastBostonEventsContainerSecondContainerLeftContainerImage' />
+                            <img src={assets.eventsImgFour} alt="" className='midaEastBostonEventsContainerSecondContainerLeftContainerImage' />
                         </div>
                     </div>
 
@@ -76,7 +76,17 @@ const MidaNewtonEvents = () => {
                             <div className="midaEastBostonEventsContainerSecondContainerRightContainerTop">
                                 <div className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainer">
                                     <p className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainerText">
-                                    SKYLINE VIEW SECTION  - SEATS UP TO 28 
+                                    HIGH TOP AREA - COCKTAIL RECEPTION
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            {/* Top Part */}
+                            <div className="midaEastBostonEventsContainerSecondContainerRightContainerTop">
+                                <div className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainer">
+                                    <p className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainerText">
+                                    FOR 10-25 PEOPLE
                                     </p>
                                 </div>
                             </div>
@@ -85,8 +95,7 @@ const MidaNewtonEvents = () => {
                             <div className="midaEastBostonEventsContainerSecondContainerRightContainerBottom">
                                 <div className="midaEastBostonEventsContainerSecondContainerRightContainerBottomContainer">
                                     <p className="midaEastBostonEventsContainerSecondContainerRightContainerBottomContainerText">
-                                    A favorite among both corporate clients and families celebrating milestone events, the Skyline View Section offers an unparalleled dining experience. Located next to our large windows, this space provides stunning views of the Boston skyline, creating a memorable backdrop for any occasion. Enjoy the beauty of the waterfront while savoring our delicious cuisine in this unique and picturesque area.
-                                    </p>
+                                    A favorite among our corporate clients and networking groups, this area is next to the bar and is perfect for a mingling, after-work or casual reception.                                     </p>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +116,8 @@ const MidaNewtonEvents = () => {
                             <div className="midaEastBostonEventsContainerThirdContainerLeftContainerTop">
                                 <div className="midaEastBostonEventsContainerThirdContainerLeftContainerTopContainer">
                                     <p className="midaEastBostonEventsContainerThirdContainerLeftContainerTopContainerText">
-                                        COCKTAIL RECEPTION AREA - HOSTS - up to 25
+                                    BANQUETTES 
+                                    SEATS 8-16 
                                     </p>
                                 </div>
                             </div>
@@ -116,8 +126,7 @@ const MidaNewtonEvents = () => {
                             <div className="midaEastBostonEventsContainerThirdContainerLeftContainerBottom">
                                 <div className="midaEastBostonEventsContainerThirdContainerLeftContainerBottomContainer">
                                     <p className="midaEastBostonEventsContainerThirdContainerLeftContainerBottomContainerText">
-                                        Looking for a more casual vibe? Our Cocktail Reception Area offers a relaxed setting with views of the Boston skyline and harbor. Enjoy stationary appetizers, pizzas, and craft cocktails. Perfect for intimate gatherings or medium-sized, reception-style events.
-                                    </p>
+                                    Perfect for mid-sized parties, this area accommodates guests on one long table in the front area of our space.                                     </p>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +135,7 @@ const MidaNewtonEvents = () => {
                     {/* Right Part */}
                     <div className="midaEastBostonEventsContainerThirdContainerRight">
                         <div className="midaEastBostonEventsContainerThirdContainerRightContainer">
-                            <img src={assets.eventsImgTwo} alt="" className='midaEastBostonEventsContainerThirdContainerRightContainerImage' />
+                            <img src={assets.eventsImgFive} alt="" className='midaEastBostonEventsContainerThirdContainerRightContainerImage' />
                         </div>
                     </div>
                 </div>
@@ -147,34 +156,43 @@ const MidaNewtonEvents = () => {
 
 
 
-            {/* Fourth Part */}
-            <div className="midaEastBostonEventsContainerFourth">
-                <div className="midaEastBostonEventsContainerFourthContainer">
+            {/* Second Part */}
+            <div className="midaEastBostonEventsContainerSecond">
+                <div className="midaEastBostonEventsContainerSecondContainer">
                     {/* Left Part */}
-                    <div className="midaEastBostonEventsContainerFourthContainerLeft">
-                        <div className="midaEastBostonEventsContainerFourthContainerLeftContainer">
-                            <img src={assets.eventsImgThree} alt="" className='midaEastBostonEventsContainerFourthContainerLeftContainerImage' />
+                    <div className="midaEastBostonEventsContainerSecondContainerLeft">
+                        <div className="midaEastBostonEventsContainerSecondContainerLeftContainer">
+                            <img src={assets.eventsImgSix} alt="" className='midaEastBostonEventsContainerSecondContainerLeftContainerImage' />
                         </div>
                     </div>
 
                     {/* Right Part */}
-                    <div className="midaEastBostonEventsContainerFourthContainerRight">
-                        <div className="midaEastBostonEventsContainerFourthContainerRightContainer">
+                    <div className="midaEastBostonEventsContainerSecondContainerRight">
+                        <div className="midaEastBostonEventsContainerSecondContainerRightContainer">
                             {/* Top Part */}
-                            <div className="midaEastBostonEventsContainerFourthContainerRightContainerTop">
-                                <div className="midaEastBostonEventsContainerFourthContainerRightContainerTopContainer">
-                                    <p className="midaEastBostonEventsContainerFourthContainerRightContainerTopContainerText">
-                                        FULL BUY OUT - OVER 30 SEATS UP TO 65 or STANDING FOR 100 
+                            <div className="midaEastBostonEventsContainerSecondContainerRightContainerTop">
+                                <div className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainer">
+                                    <p className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainerText">
+                                    SEMI-PRIVATE WINDOW GALLERY - SEATS 17-50 
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            {/* Top Part */}
+                            <div className="midaEastBostonEventsContainerSecondContainerRightContainerTop">
+                                <div className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainer">
+                                    <p className="midaEastBostonEventsContainerSecondContainerRightContainerTopContainerText">
+                                    FOR 10-25 PEOPLE
                                     </p>
                                 </div>
                             </div>
 
                             {/* Bottom Part */}
-                            <div className="midaEastBostonEventsContainerFourthContainerRightContainerBottom">
-                                <div className="midaEastBostonEventsContainerFourthContainerRightContainerBottomContainer">
-                                    <p className="midaEastBostonEventsContainerFourthContainerRightContainerBottomContainerText">
-                                        We offer a complete buyout of our East Boston waterfront venue, making it a fully private event for your group for the entire evening. Enjoy exclusive access to our stunning Boston skyline and harbor views, along with exceptional cuisine and craft cocktails. Perfect for corporate events, milestone celebrations, or any special occasion. For more information about a patio buyout, please reach out, as these are more dependent on specific circumstances.
-                                    </p>
+                            <div className="midaEastBostonEventsContainerSecondContainerRightContainerBottom">
+                                <div className="midaEastBostonEventsContainerSecondContainerRightContainerBottomContainer">
+                                    <p className="midaEastBostonEventsContainerSecondContainerRightContainerBottomContainerText">
+                                    Have a big holiday party or corporate event? Bridal shower or large birthday celebration? Our banquettes & front window tables can be arranged in a variety of set-ups to accommodate many different-sized groups, for either a seated dinner or a buffet-style reception.                                      </p>
                                 </div>
                             </div>
                         </div>
@@ -182,18 +200,17 @@ const MidaNewtonEvents = () => {
                 </div>
             </div>
 
-            <div className='backDiv' />
-
 
 
             {/* Fifth Part */}
-            <div className="midaEastBostonEventsContainerFifth">
+            <div className="midaEastBostonEventsContainerFifthNewton">
                 <div className="midaEastBostonEventsContainerFifthContainer">
                     {/* Top Part */}
-                    <div className="midaEastBostonEventsContainerFifthContainerTop">
-                        <div className="midaEastBostonEventsContainerFifthContainerTopContainer">
+                    <div className="midaEastBostonEventsContainerFifthContainerTopNewton">
+                        <div className="midaEastBostonEventsContainerFifthContainerTopContainerNewton">
                             <p className="midaEastBostonEventsContainerFifthContainerTopContainerText">
-                                FULL VENUE BUYOUT - SEATS 30-65, STANDING RECEPTION FOR UP TO 100 
+                            FULL VENUE BUYOUT-SEATS 100 
+
                             </p>
                         </div>
                     </div>
@@ -202,8 +219,9 @@ const MidaNewtonEvents = () => {
                     <div className="midaEastBostonEventsContainerFifthContainerBottom">
                         <div className="midaEastBostonEventsContainerFifthContainerBottomContainer">
                             <p className="midaEastBostonEventsContainerFifthContainerBottomContainerText">
-                                For more information about a patio buyout, please reach out, as these are more dependent on specific circumstances.
-                            </p>
+                            We do offer a complete buyout of our venue, making it a fully private event for your group for the entire evening. 
+
+</p>
                         </div>
                     </div>
                 </div>
@@ -212,9 +230,9 @@ const MidaNewtonEvents = () => {
 
             {/* Sixth Part */}
             <div className="midaEastBostonEventsContainerSixth">
-                <div className="midaEastBostonEventsContainerSixthContainer">
+                {/* <div className="midaEastBostonEventsContainerSixthContainer">
                     <div className='midaEastBostonEventsContainerSixthContainerDiv' />
-                </div>
+                </div> */}
             </div>
 
 
@@ -224,7 +242,9 @@ const MidaNewtonEvents = () => {
                     <div className="midaEastBostonEventsContainerSixthSeventhContainerOne">
                         <div className="midaEastBostonEventsContainerSixthSeventhContainerOneContainer">
                             <p className="midaEastBostonEventsContainerSixthSeventhContainerOneContainerText">
-                                Please click below to inquire about availability and pricing for your special event here at MIDA! 
+                            Please click below to inquire about having your special event here at MIDA! 
+
+
                             </p>
                         </div>
                     </div>
@@ -242,7 +262,11 @@ const MidaNewtonEvents = () => {
                     <div className="midaEastBostonEventsContainerSixthSeventhContainerThree">
                         <div className="midaEastBostonEventsContainerSixthSeventhContainerThreeContainer">
                             <p className="midaEastBostonEventsContainerSixthSeventhContainerThreeContainerText">
-                                For specific questions, email melissa@midaboston.com. 
+                            For specific questions, email melissa@midaboston.com. 
+
+
+
+
                             </p>
                         </div>
                     </div>
@@ -250,7 +274,11 @@ const MidaNewtonEvents = () => {
                     <div className="midaEastBostonEventsContainerSixthSeventhContainerFour">
                         <div className="midaEastBostonEventsContainerSixthSeventhContainerFourContainer">
                             <p className="midaEastBostonEventsContainerSixthSeventhContainerFourContainerText">
-                                65 Lewis Street East Boston, MA 02128 MA 02118. (617)-996-1224
+                            MIDA Newton, 261 Walnut Street, Newton, MA 02460. (617) 546-8010
+
+
+
+
                             </p>
                         </div>
                     </div>

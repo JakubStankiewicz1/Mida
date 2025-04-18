@@ -1,0 +1,17 @@
+.midaEastBostonEventsContainerFifthContainerTopContainerNewton {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.midaEastBostonEventsContainerFifthContainerTopNewton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.midaEastBostonEventsContainerFifthNewton {
+    margin-top: 50px;
+}

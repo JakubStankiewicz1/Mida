@@ -14,6 +14,9 @@ import locationOne from "./locationOne.jpg";
 import eventsImgOne from "./eventsImgOne.jpg";
 import eventsImgTwo from "./eventsImgTwo.jpg";
 import eventsImgThree from "./eventsImgThree.jpg";
+import eventsImgFour from "./eventsImgFour.jpg";
+import eventsImgFive from "./eventsImgFive.jpg";
+import eventsImgSix from "./eventsImgSix.png";
 
 export default {
   mainLogo,
@@ -29,4 +32,7 @@ export default {
   eventsImgOne, 
   eventsImgTwo,
   eventsImgThree,
+  eventsImgFour,
+  eventsImgFive,
+  eventsImgSix,
 };
