@@ -1,0 +1,11 @@
+.midaEastBostonEventsContainerDiv {
+    margin-top: 80px;
+}
+
+.midaEastBostonEventsContainerFifthContainerBottomMidaFenway {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
