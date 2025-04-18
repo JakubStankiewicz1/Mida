@@ -32,6 +32,8 @@ import giftCardsThree from "./giftCardsThree.png";
 import giftCardsFour from "./giftCardsFour.jpg";
 import giftCardsLogo from "./giftCardsLogo.png";
 
+import cateringImgOne from "./cateringImgOne.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -60,4 +62,5 @@ export default {
   giftCardsThree,
   giftCardsFour,
   giftCardsLogo,
+  cateringImgOne,
 };

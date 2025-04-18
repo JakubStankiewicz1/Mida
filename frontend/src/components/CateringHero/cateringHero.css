@@ -1,0 +1,50 @@
+.cateringHero {
+    width: 100%;
+    margin: 0; /* Remove any top margin */
+}
+
+.cateringHeroContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cateringHeroContainerImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cateringHeroContainerImageContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cateringHeroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.cateringHeroContainerTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.cateringHeroContainerTitleText {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
