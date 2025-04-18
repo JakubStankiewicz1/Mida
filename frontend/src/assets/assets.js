@@ -11,6 +11,10 @@ import homeImageSix from "./homeImageSix.jpeg";
 
 import locationOne from "./locationOne.jpg";
 
+import eventsImgOne from "./eventsImgOne.jpg";
+import eventsImgTwo from "./eventsImgTwo.jpg";
+import eventsImgThree from "./eventsImgThree.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -22,4 +26,7 @@ export default {
   homeImageFive,
   homeImageSix,
   locationOne,
+  eventsImgOne, 
+  eventsImgTwo,
+  eventsImgThree,
 };

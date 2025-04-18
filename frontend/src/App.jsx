@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import NavbarDark from "./components/NavbarDark/NavbarDark";
 import LocationsMenus from "./pages/LocationsMenus/LocationsMenus";
 import WorkHere from "./pages/WorkHere/WorkHere";
+import MidaEastBostonEvents from "./pages/MidaEastBostonEvents/MidaEastBostonEvents";
 
 const App = () => {
 
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/location" element={<LocationsMenus />} />
         <Route path="/work-here" element={<WorkHere />} />
+        <Route path="/mida-east-boston-events" element={<MidaEastBostonEvents />} />
+        <Route path="/mida-newton-events" element={<MidaNewtonEvents />} />
       </Routes>
     </div>
   );
