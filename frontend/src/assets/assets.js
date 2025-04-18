@@ -26,6 +26,12 @@ import eventsImgTen from "./eventsImgTen.jpg";
 import eventsImgEleven from "./eventsImgEleven.jpg";
 import eventsImgTwelve from "./eventsImgTwelve.jpeg";
 
+import giftCardsOne from "./giftCardsOne.jpg";
+import giftCardsTwo from "./giftCardsTwo.jpg";
+import giftCardsThree from "./giftCardsThree.png";
+import giftCardsFour from "./giftCardsFour.jpg";
+import giftCardsLogo from "./giftCardsLogo.png";
+
 export default {
   mainLogo,
   homeHero,
@@ -49,4 +55,9 @@ export default {
   eventsImgTen,
   eventsImgEleven,
   eventsImgTwelve,
+  giftCardsOne,
+  giftCardsTwo,
+  giftCardsThree,
+  giftCardsFour,
+  giftCardsLogo,
 };
