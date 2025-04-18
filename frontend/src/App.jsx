@@ -7,6 +7,7 @@ import LocationsMenus from "./pages/LocationsMenus/LocationsMenus";
 import WorkHere from "./pages/WorkHere/WorkHere";
 import MidaEastBostonEvents from "./pages/MidaEastBostonEvents/MidaEastBostonEvents";
 import MidaNewtonEvents from "./pages/MidaNewtonEvents/MidaNewtonEvents";
+import MidaSouthEndEvents from "./pages/MidaSouthEndEvents/MidaSouthEndEvents";
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/work-here" element={<WorkHere />} />
         <Route path="/mida-east-boston-events" element={<MidaEastBostonEvents />} />
         <Route path="/mida-newton-events" element={<MidaNewtonEvents />} />
+        <Route path="/mida-south-end-events" element={<MidaSouthEndEvents />} />
       </Routes>
     </div>
   );

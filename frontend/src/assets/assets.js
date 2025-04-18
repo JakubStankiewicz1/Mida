@@ -18,6 +18,10 @@ import eventsImgFour from "./eventsImgFour.jpg";
 import eventsImgFive from "./eventsImgFive.jpg";
 import eventsImgSix from "./eventsImgSix.png";
 
+import eventsImgSeven from "./eventsImgSeven.jpg";
+import eventsImgEight from "./eventsImgEight.jpg";
+import eventsImgNine from "./eventsImgNine.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -35,4 +39,7 @@ export default {
   eventsImgFour,
   eventsImgFive,
   eventsImgSix,
+  eventsImgSeven,
+  eventsImgEight,
+  eventsImgNine,
 };
