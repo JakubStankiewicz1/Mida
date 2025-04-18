@@ -124,7 +124,7 @@ const Navbar = () => {
                   </NavLink>
 
                   {/* NavLink Element */}
-                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                  <NavLink to="/mida-newton-events" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                       <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Newton Events</p>
                     </div>
