@@ -280,9 +280,9 @@ const LocationsMenus = () => {
           </div>
 
           {/* Hr Part */}
-          <div className="locationsMenusContainerMainHrBottom">
-            <div className="locationsMenusContainerMainHrBottomContainer">
-              <div className="locationsMenusContainerMainHrBottomContainerDiv" />
+          <div className="locationsMenusContainerMainHrBottomHr">
+            <div className="locationsMenusContainerMainHrBottomHrContainer">
+              <div className="locationsMenusContainerMainHrBottomHrContainerDiv" />
             </div>
           </div>
 

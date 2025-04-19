@@ -1,6 +1,5 @@
-.locationsMenus {
-  /* padding-bottom: 1000px;q */
-  /* Czemu to nie dział???? */
+.locationsMenusContainer {
+  margin-bottom: 100px;
 }
 
 .locationsMenusContainerMainText {
@@ -351,18 +350,19 @@
   color: #000000;
   font-size: 18px;
   font-weight: 500;
-  /* line-height: 40px; */
   letter-spacing: 0.2px;
 }
 
-.locationsMenusContainerMainHrBottom {
+.locationsMenusContainerMainHrBottom,
+.locationsMenusContainerMainHrBottomHr {
   margin-top: 70px;
   width: 72%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.locationsMenusContainerMainHrBottomContainer {
+.locationsMenusContainerMainHrBottomContainer,
+.locationsMenusContainerMainHrBottomHrContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -370,7 +370,8 @@
 }
 
 
-.locationsMenusContainerMainHrBottomContainerDiv {
+.locationsMenusContainerMainHrBottomContainerDiv,
+.locationsMenusContainerMainHrBottomHrContainerDiv {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -397,21 +398,25 @@
 
 .locationsMenusContainerMainHrBottomContainerOneText {
   color: #201713;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 58px;
+  line-height: 32px;
+}
+
+.locationsMenusContainerMainHrBottomContainerTwo {
+  margin-top: 20px;
 }
 
 .locationsMenusContainerMainHrBottomContainerTwoText {
   color: #404040;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 24px;
 }
 
 .locationsMenusContainerMainHrBottomContainerThreeText {
   color: #404040;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 24px;
   margin-top: 5px;

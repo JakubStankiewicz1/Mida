@@ -1,6 +1,6 @@
 .cateringHero {
     width: 100%;
-    margin: 0; /* Remove any top margin */
+    margin: 0;
 }
 
 .cateringHeroContainer {
@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
@@ -43,7 +43,7 @@
 
 .cateringHeroContainerTitleText {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 54px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;

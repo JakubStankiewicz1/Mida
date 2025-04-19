@@ -3,11 +3,14 @@ import './apizza.css';
 import CateringHero from '../../components/CateringHero/CateringHero';
 import assets from '../../assets/assets';
 import Fotter from '../../components/Fotter/Fotter';
+import HomeOrder from '../../components/HomeOrder/HomeOrder';
 
 const Apizza = () => {
   return (
     <div className="apizza">
         <CateringHero image={assets.apizzaImgOne} title={"APIZZA"} />
+
+        <HomeOrder />
         
         <div className="apizzaContainer">
             {/* First Part */}
@@ -23,7 +26,7 @@ const Apizza = () => {
                         </div>
                     </div>
 
-                    <div className="apizzaContainerFirstContainerOne">
+                    <div className="apizzaContainerFirstContaineTwo">
                         <div className="apizzaContainerFirstContainerOneContainer">
                             <p className="apizzaContainerFirstContainerOneContainerText">
                                 or click the logo to visit our website
