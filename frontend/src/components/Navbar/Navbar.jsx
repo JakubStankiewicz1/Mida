@@ -58,7 +58,7 @@ const Navbar = () => {
                   </NavLink>
 
                   {/* NavLink Element */}
-                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                  <NavLink to="/apizza" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                       <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">APIZZA</p>
                     </div>

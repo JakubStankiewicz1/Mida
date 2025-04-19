@@ -38,6 +38,9 @@ import midaCateringImg from "./midaCateringImg.jpg";
 
 import apizzaCateringImg from "./apizzaCateringImg.jpg";
 
+import apizzaImgOne from "./apizzaImgOne.jpg";
+import apizzaImgTwo from "./apizzaImgTwo.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -69,4 +72,6 @@ export default {
   cateringImgOne,
   midaCateringImg,
   apizzaCateringImg,
+  apizzaImgOne,
+  apizzaImgTwo,
 };
