@@ -1,9 +1,8 @@
 .menu {
-    /* width: 72%; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    padding: 40px 20px;
-    background-color: #f9f9f9;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 .menuContainer {
@@ -25,6 +24,26 @@
     margin-bottom: 30px;
 }
 
+.menuCategoryButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menuCategoryButton:hover {
+    background-color: #e0e0e0;
+}
+
+.menuCategoryButton.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
 .menuProductDivider {
     border: none;
     border-top: 1px solid lightgray;
@@ -36,14 +55,26 @@
 
 
 
+.menuContainerMiddleContainerDiv {
+    margin-top: 80px;
+}
 
 
+.menuContainerMiddleContainerDivTitle {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
 
 
-
+/* .menuContainerMiddleContainerDivProducts {
+    margin-top: 50px;
+} */
 
 .menuContainerMiddleContainerDivProducts {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .menuContainerMiddleContainerDivProductsList {
@@ -52,24 +83,27 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .menuContainerMiddleContainerDivProductsListLeftContainerTextOne {
     color: #000000;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 .menuContainerMiddleContainerDivProductsListLeftContainerTextTwo {
     color: #545454;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
-
-.menuContainerMiddleContainerDivProductsListLeftContainerTextOne {
-
-}
-
-
 
 .menuContainerMiddleContainerDivProductsListLeftContainerTextThree {
     color: #000000;
+    margin-top: 10px;
+    font-weight: 500;
 }

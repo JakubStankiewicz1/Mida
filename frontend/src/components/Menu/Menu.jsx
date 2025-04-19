@@ -2,39 +2,21 @@ import React, { useState } from 'react';
 import './menu.css';
 import data from '../../assets/data.json';
 
-const renderProducts = (products, handleProductClick) => {
-  if (!products || products.length === 0) {
-    return <p className="menuNoProducts">No products available.</p>;
-  }
-
-  return products.map((product, index) => (
-    <div key={index} className="menuProduct" onClick={() => handleProductClick(product)}>
-      {/* Left Part */}
-      <div className="menuProductLeft">
-        <p className="menuProductName">{product.name}</p>
-      </div>
-      {/* Right Part */}
-      <div className="menuProductRight">
-        <p className="menuProductPrice">${product.price}</p>
-      </div>
-    </div>
-  ));
-};
-
 const Menu = () => {
-  const [category, setCategory] = useState('Dinner'); // Default category
-  const [selectedProduct, setSelectedProduct] = useState(null); // Track selected product
+  const [category, setCategory] = useState('Dinner');
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory);
-    setSelectedProduct(null); // Reset selected product when category changes
+    setSelectedProduct(null);
   };
 
   const handleProductClick = (product) => {
-    setSelectedProduct(product); // Set selected product on click
+    setSelectedProduct(product);
   };
 
-  const categoryData = data[category] || {}; // Safely fetch category data
+  const categoryData = data[category] || {};
+  const categories = Object.keys(data); // Get all category names from the data
 
   return (
     <div className="menu">
@@ -45,14 +27,21 @@ const Menu = () => {
             <p className="menuContainerTopContainerText">Menu</p>
           </div>
           <div className="menuCategorySelector">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                className={`menuCategoryButton ${cat === category ? 'active' : ''}`}
+                onClick={() => handleCategoryChange(cat)}
+              >
+                {cat}
+              </button>
+            ))}
           </div>
         </div>
 
         {/* Middle Part */}
         <div className="menuContainerMiddle">
           <div className="menuContainerMiddleContainer">
-           
-
             {Object.keys(categoryData).map((sectionKey, index) => {
               if (sectionKey.startsWith('name')) {
                 const sectionNumber = sectionKey.replace('name', '');
@@ -83,11 +72,6 @@ const Menu = () => {
                                   {product.allergens.length > 0 && (
                                     <p className="menuContainerMiddleContainerDivProductsListLeftContainerTextThree">
                                       Allergens: {product.allergens.join(', ')}
-                                    </p>
-                                  )}
-                                  {product.optional.length > 0 && (
-                                    <p className="menuContainerMiddleContainerDivProductsListLeftContainerTextFour">
-                                      Optional: {product.optional.map(option => `${option[0]} - $${option[1]}`).join(', ')}
                                     </p>
                                   )}
                                 </div>
