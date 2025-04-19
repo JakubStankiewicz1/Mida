@@ -4,11 +4,11 @@
   left: 0;
   width: 100%;
   background-color: #000000;
-  z-index: 1000;
+  z-index: 9999;
   height: 70px;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbarDarkFixedContainer {
@@ -20,49 +20,53 @@
 }
 
 .navbarDarkFixedContainerNavLink {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-    text-decoration: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
 }
 
 .navbarDarkFixedContainerLeft,
 .navbarDarkFixedContainerRight {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .navbarDarkFixedContainerNavLinkOne,
 .navbarDarkFixedContainerNavLinkTwo,
 .navbarDarkFixedContainerNavLinkThree {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  position: relative;
 }
 
-.navbarDarkFixedContainerNavLinkOne:hover .navbarDarkFixedContainerNavLinkContainerText,
-.navbarDarkFixedContainerNavLinkTwo:hover .navbarDarkFixedContainerNavLinkContainerText,
-.navbarDarkFixedContainerNavLinkThree:hover .navbarDarkFixedContainerNavLinkContainerText {
-    color: #FFFFFF;
+.navbarDarkFixedContainerNavLinkOne:hover
+  .navbarDarkFixedContainerNavLinkContainerText,
+.navbarDarkFixedContainerNavLinkTwo:hover
+  .navbarDarkFixedContainerNavLinkContainerText,
+.navbarDarkFixedContainerNavLinkThree:hover
+  .navbarDarkFixedContainerNavLinkContainerText {
+  color: #ffffff;
 }
 
 .navbarDarkFixedContainerNavLinkContainerText {
-    color: #B7B7B7;
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  color: #b7b7b7;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.navbarDarkFixedContainerNavLink:hover .navbarDarkFixedContainerNavLinkContainerText {
-    color: #FFFFFF;
+.navbarDarkFixedContainerNavLink:hover
+  .navbarDarkFixedContainerNavLinkContainerText {
+  color: #ffffff;
 }
 
 .navbarDarkFixedDropdownMenu {
@@ -75,25 +79,25 @@
 }
 
 .navbarDarkFixedDropdownMenuTwo {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #000000;
-    padding: 10px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    width: 180px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 180px;
 }
 
 .navbarDarkFixedDropdownMenuThree {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #000000;
-    padding: 10px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    width: 250px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 250px;
 }
 
 .navbarDarkFixedDropdownMenuItem {
@@ -108,7 +112,7 @@
 }
 
 .navbarDarkFixedDropdownMenuItem:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .navbarDarkFixedDropdownMenuOne,
@@ -128,7 +132,7 @@
 }
 
 .navbarDarkFixedDropdownMenuOne {
-    width: 195px;
+  width: 195px;
 }
 
 .navbarDarkFixedDropdownMenuOne.visible,
