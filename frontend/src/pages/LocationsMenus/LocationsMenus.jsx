@@ -6,6 +6,8 @@ import HomeOrder from "../../components/HomeOrder/HomeOrder";
 import assets from "../../assets/assets";
 import LocationReservation from "../../components/LocationReservation/LocationReservation";
 import Menu from "../../components/Menu/Menu";
+import Fotter from "../../components/Fotter/Fotter";
+import { FaPrint } from "react-icons/fa";
 
 const LocationsMenus = () => {
   return (
@@ -241,8 +243,83 @@ const LocationsMenus = () => {
           </div>
 
           <Menu />
+
+          {/* Part Top */}
+          <div className="locationsMenusContainerMainTop">
+            <div className="locationsMenusContainerMainTopContainer">
+              <div className="locationsMenusContainerMainTopContainerOne">
+                <div className="locationsMenusContainerMainTopContainerOneContainer">
+                  <p className="locationsMenusContainerMainTopContainerOneContainerText">
+                    Last updated on April 4, 2025
+                  </p>
+                </div>
+              </div>
+
+              <div className="locationsMenusContainerMainTopContainerTwo">
+                <div className="locationsMenusContainerMainTopContainerTwoContainer">
+                  <p className="locationsMenusContainerMainTopContainerTwoContainerText">
+                    <span className="locationsMenusContainerMainTopContainerTwoContainerTextTxt">
+                      Disclaimer
+                    </span>
+                    pricing and availability subject to change.
+                  </p>
+                </div>
+              </div>
+
+              <div className="locationsMenusContainerMainTopContainerThree">
+                <div className="locationsMenusContainerMainTopContainerThreeContainer">
+                  <div className="locationsMenusContainerMainTopContainerThreeContainerBtn">
+                    <p className="locationsMenusContainerMainTopContainerThreeContainerBtnText">
+                      Print Menu
+                    </p>
+                    <FaPrint className="locationsMenusContainerMainTopContainerThreeContainerBtnIcon" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Hr Part */}
+          <div className="locationsMenusContainerMainHrBottom">
+            <div className="locationsMenusContainerMainHrBottomContainer">
+              <div className="locationsMenusContainerMainHrBottomContainerDiv" />
+            </div>
+          </div>
+
+
+
+
+
+          {/* Bottom Part */}
+          <div className="locationsMenusContainerMainHrBottom">
+            <div className="locationsMenusContainerMainHrBottomContainer">
+              <div className="locationsMenusContainerMainHrBottomContainerOne">
+                <p className="locationsMenusContainerMainHrBottomContainerOneText">
+                  Contact
+                </p>
+              </div>
+
+              <div className="locationsMenusContainerMainHrBottomContainerTwo">
+                <p className="locationsMenusContainerMainHrBottomContainerTwoText">
+                  GENERAL INQUIRIES : 
+                </p>
+              </div>
+
+              <div className="locationsMenusContainerMainHrBottomContainerThree">
+                <p className="locationsMenusContainerMainHrBottomContainerThreeText">
+                  info@midaboston.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+
         </div>
       </div>
+      <Fotter />
     </div>
   );
 };

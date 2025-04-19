@@ -1,272 +1,418 @@
 .locationsMenus {
-    padding-bottom: 1000px;
+  /* padding-bottom: 1000px;q */
+  /* Czemu to nie dział???? */
 }
 
 .locationsMenusContainerMainText {
-    width: 72%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .locationsMenusContainerMainTextContainerText {
-    color: #404040;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: center;
-    padding-bottom: 20px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .locationsMenusContainerMainButton {
-    margin-top: 20px;
-    width: 100%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .locationsMenusContainerMainButtonContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainButtonContainerBtn {
-    width: 190px;
-    background-color: #000000;
-    height: 50px;
-    cursor: pointer;
+  width: 190px;
+  background-color: #000000;
+  height: 50px;
+  cursor: pointer;
 }
 
 .locationsMenusContainerMainButtonContainerBtnText {
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .locationsMenusContainerMainTel {
-    margin-top: 50px;
-    width: 100%;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .locationsMenusContainerMainTelContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainTelContainerText {
-    color: #1F1613;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-    letter-spacing: 0.5px;
+  color: #1f1613;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .locationsMenusContainerMainHr {
-    margin-top: 40px;
-    width: 100%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .locationsMenusContainerMainHrContainer {
-    display: flex;
-    width: 72%;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .locationsMenusContainerMainHrContainerDiv {
-    width: 100%;
-    height: 3px;
-    background-color: #000000;
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
 }
 
 .locationsMenusContainerMainHomeLocation {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
 }
 
 .locationsMenusContainerMainHomeLocationContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    width: 72%;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .locationsMenusContainerMainHomeLocationContainerTop {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .locationsMenusContainerMainHomeLocationContainerTopContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .locationsMenusContainerMainHomeLocationContainerTopContainerText {
-    color: #201713;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0.2px;
+  color: #201713;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.2px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottom {
-    margin-top: 30px;
-    width: 100%;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeft,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerRight {
-    width: 100%;
-    /* border: 1px solid #000; */
+  width: 100%;
+  /* border: 1px solid #000; */
 }
 
 .locationsMenusMap {
-    width: 100%;
-    height: 408px;
-    border: none;
-    filter: grayscale(100%);
+  width: 100%;
+  height: 408px;
+  border: none;
+  filter: grayscale(100%);
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainer {
-    width: 100%;
-    /* background-color: #f9f9f9; */
-    padding: 20px;
-    border-radius: 8px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElement,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwo,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddress,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerTextTitle {
-    color: #333;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-align: left;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText,
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText {
-    color: #555;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainerText {
-    color: #404040;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.6;
-    margin-bottom: 5px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 5px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUl {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText {
-    color: #555;
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 5px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElement {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle {
-    display: flex;  
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    color: #404040;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.1px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #404040;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText {
-    color: #404040;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 2px;
-    letter-spacing: 0.1px;
-    padding-top: 10px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2px;
+  letter-spacing: 0.1px;
+  padding-top: 10px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddress {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerTextTitle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerList {
-    /* background-color: lightcyan; */
-    padding-left: 40px;
+  /* background-color: lightcyan; */
+  padding-left: 40px;
+}
+
+.locationsMenusContainerMainTop {
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationsMenusContainerMainTopContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationsMenusContainerMainTopContainerOneContainerText {
+  color: #121037;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.locationsMenusContainerMainTopContainerTwo {
+  margin-top: 15px;
+}
+
+.locationsMenusContainerMainTopContainerTwoContainerText {
+  color: #121037;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: wavy;
+}
+
+.locationsMenusContainerMainTopContainerTwoContainerTextTxt {
+  color: #121037;
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+.locationsMenusContainerMainTopContainerThree {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationsMenusContainerMainTopContainerThreeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationsMenusContainerMainTopContainerThreeContainerBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #d3d3d3;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.locationsMenusContainerMainTopContainerThreeContainerBtnIcon {
+  color: #000000;
+  width: 18px;
+  height: auto;
+}
+
+.locationsMenusContainerMainTopContainerThreeContainerBtnText {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  /* line-height: 40px; */
+  letter-spacing: 0.2px;
+}
+
+.locationsMenusContainerMainHrBottom {
+  margin-top: 70px;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.locationsMenusContainerMainHrBottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.locationsMenusContainerMainHrBottomContainerDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+}
+
+.locationsMenusContainerMainHrBottom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.locationsMenusContainerMainHrBottomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.locationsMenusContainerMainHrBottomContainerOneText {
+  color: #201713;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.locationsMenusContainerMainHrBottomContainerTwoText {
+  color: #404040;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.locationsMenusContainerMainHrBottomContainerThreeText {
+  color: #404040;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 5px;
 }
