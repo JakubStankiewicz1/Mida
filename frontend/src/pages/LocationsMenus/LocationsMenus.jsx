@@ -22,27 +22,37 @@ const LocationsMenus = () => {
           <div className="locationsMenusContainerMainText">
             <div className="locationsMenusContainerMainTextContainer">
               <p className="locationsMenusContainerMainTextContainerText">
-                Reservations can be made in advance through OpenTable or by phone. We do not accept reservations via email or social media. We do not
-                take reservations for the bar or patio. Reservations are recommended for parties of 6 or more. For parties of 10 or more, please
-                contact us directly at
+                Reservations can be made in advance through OpenTable or by
+                phone. We do not accept reservations via email or social media.
+                We do not take reservations for the bar or patio. Reservations
+                are recommended for parties of 6 or more. For parties of 10 or
+                more, please contact us directly at
               </p>
 
               <p className="locationsMenusContainerMainTextContainerText">
-                For parties of 5-8 guests, reservations can be made between 4:00pm - 6:00pm and at 8:00pm or later by calling the restaurant directly.
-                A credit card is required at the time of booking to secure a reservation.
+                For parties of 5-8 guests, reservations can be made between
+                4:00pm - 6:00pm and at 8:00pm or later by calling the restaurant
+                directly. A credit card is required at the time of booking to
+                secure a reservation.
               </p>
 
               <p className="locationsMenusContainerMainTextContainerText">
-                Patio reservations are available on a same-day first-come basis only. Please call the restaurant the day of to secure patio seating.
-                Requests for patio tables made through Open Table are not guaranteed. Patio availability is subject to change due to inclement
-                weather.
+                Patio reservations are available on a same-day first-come basis
+                only. Please call the restaurant the day of to secure patio
+                seating. Requests for patio tables made through Open Table are
+                not guaranteed. Patio availability is subject to change due to
+                inclement weather.
               </p>
 
-              <p className="locationsMenusContainerMainTextContainerText">Parties of 9 or more people are considered a large group event.</p>
+              <p className="locationsMenusContainerMainTextContainerText">
+                Parties of 9 or more people are considered a large group event.
+              </p>
 
               <p className="locationsMenusContainerMainTextContainerText">
-                If you are interested in having a large party here at MIDA EAST BOSTON, please click on the Event Inquiry button below and fill out an
-                inquiry form. Please note that we do not have a private dining room, only semi-private areas.
+                If you are interested in having a large party here at MIDA EAST
+                BOSTON, please click on the Event Inquiry button below and fill
+                out an inquiry form. Please note that we do not have a private
+                dining room, only semi-private areas.
               </p>
             </div>
           </div>
@@ -51,7 +61,9 @@ const LocationsMenus = () => {
           <div className="locationsMenusContainerMainButton">
             <div className="locationsMenusContainerMainButtonContainer">
               <div className="locationsMenusContainerMainButtonContainerBtn">
-                <p className="locationsMenusContainerMainButtonContainerBtnText">Event Inquiry</p>
+                <p className="locationsMenusContainerMainButtonContainerBtnText">
+                  Event Inquiry
+                </p>
               </div>
             </div>
           </div>
@@ -59,7 +71,9 @@ const LocationsMenus = () => {
           {/* Tel Number */}
           <div className="locationsMenusContainerMainTel">
             <div className="locationsMenusContainerMainTelContainer">
-              <p className="locationsMenusContainerMainTelContainerText">Tel: 617-996-1224</p>
+              <p className="locationsMenusContainerMainTelContainerText">
+                Tel: 617-996-1224
+              </p>
             </div>
           </div>
 
@@ -76,19 +90,15 @@ const LocationsMenus = () => {
               {/* Top Part */}
               <div className="locationsMenusContainerMainHomeLocationContainerTop">
                 <div className="locationsMenusContainerMainHomeLocationContainerTopContainer">
-                  <p className="locationsMenusContainerMainHomeLocationContainerTopContainerText">Hours & Location</p>
+                  <p className="locationsMenusContainerMainHomeLocationContainerTopContainerText">
+                    Hours & Location
+                  </p>
                 </div>
               </div>
 
               {/* Bottom Part */}
               <div className="locationsMenusContainerMainHomeLocationContainerBottom">
                 <div className="locationsMenusContainerMainHomeLocationContainerBottomContainer">
-
-
-
-
-
-
                   {/* Left Part */}
                   <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeft">
                     <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainer">
@@ -152,21 +162,25 @@ const LocationsMenus = () => {
                           </p>
 
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            Please call us for additional assistance with directions or parking.
+                            Please call us for additional assistance with
+                            directions or parking.
                           </p>
 
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            Limited 2-hour parking is available on surrounding streets (Lewis St., Marginal St., S. Bremen St., Sumner St., Orleans
-                            St.)
+                            Limited 2-hour parking is available on surrounding
+                            streets (Lewis St., Marginal St., S. Bremen St.,
+                            Sumner St., Orleans St.)
                           </p>
 
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            The restaurant is a two-minute walk from the Maverick Blue Line T stop.
+                            The restaurant is a two-minute walk from the
+                            Maverick Blue Line T stop.
                           </p>
 
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            The restaurant is also accessible by public ferry from several locations Monday - Sunday from 11 AM - 11 PM weather
-                            permitting:
+                            The restaurant is also accessible by public ferry
+                            from several locations Monday - Sunday from 11 AM -
+                            11 PM weather permitting:
                           </p>
 
                           <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerList">
@@ -192,7 +206,8 @@ const LocationsMenus = () => {
 
                                 <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
                                   <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
-                                    Fan Pier (10 Waterside Ave, Boston's Seaport)
+                                    Fan Pier (10 Waterside Ave, Boston's
+                                    Seaport)
                                   </p>
                                 </li>
                               </ul>
@@ -200,9 +215,6 @@ const LocationsMenus = () => {
                           </div>
                         </div>
                       </div>
-
-                      
-
                     </div>
                   </div>
 
@@ -221,8 +233,6 @@ const LocationsMenus = () => {
             </div>
           </div>
 
-
-
           {/* Hr Element */}
           <div className="locationsMenusContainerMainHr">
             <div className="locationsMenusContainerMainHrContainer">
@@ -230,11 +240,7 @@ const LocationsMenus = () => {
             </div>
           </div>
 
-
           <Menu />
-
-
-
         </div>
       </div>
     </div>

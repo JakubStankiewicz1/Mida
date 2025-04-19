@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './menu.css';
-import data from '../../assets/data.json';
+import React, { useState } from "react";
+import "./menu.css";
+import data from "../../assets/data.json";
 
 const Menu = () => {
-  const [category, setCategory] = useState('Dinner');
+  const [category, setCategory] = useState("Dinner");
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleCategoryChange = (newCategory) => {
@@ -28,14 +28,26 @@ const Menu = () => {
           </div>
           <div className="menuCategorySelector">
             {categories.map((cat) => (
-              <button
+              <div
                 key={cat}
-                className={`menuCategoryButton ${cat === category ? 'active' : ''}`}
+                className={`menuCategoryButton ${
+                  cat === category ? "active" : ""
+                }`}
                 onClick={() => handleCategoryChange(cat)}
               >
                 {cat}
-              </button>
+                <div
+                  className={`menuContainerSelectorHr ${
+                    cat === category ? "active" : ""
+                  }`}
+                />
+              </div>
             ))}
+          </div>
+          <div className="menuContainerTopLine">
+            <div className="menuContainerTopLineHr">
+              <div className="menuContainerTopLineHrDiv" />
+            </div>
           </div>
         </div>
 
@@ -43,16 +55,17 @@ const Menu = () => {
         <div className="menuContainerMiddle">
           <div className="menuContainerMiddleContainer">
             {Object.keys(categoryData).map((sectionKey, index) => {
-              if (sectionKey.startsWith('name')) {
-                const sectionNumber = sectionKey.replace('name', '');
+              if (sectionKey.startsWith("name")) {
+                const sectionNumber = sectionKey.replace("name", "");
                 const sectionName = categoryData[sectionKey];
                 const productsKey = `products${sectionNumber}`;
                 const products = categoryData[productsKey];
 
                 return (
                   <div key={index} className="menuContainerMiddleContainerDiv">
-                    
-                    <p className="menuContainerMiddleContainerDivTitle">{sectionName}</p>
+                    <p className="menuContainerMiddleContainerDivTitle">
+                      {sectionName}
+                    </p>
 
                     {/* Products */}
                     <div className="menuContainerMiddleContainerDivProducts">
@@ -71,7 +84,7 @@ const Menu = () => {
                                   </p>
                                   {product.allergens.length > 0 && (
                                     <p className="menuContainerMiddleContainerDivProductsListLeftContainerTextThree">
-                                      Allergens: {product.allergens.join(', ')}
+                                      Allergens: {product.allergens.join(", ")}
                                     </p>
                                   )}
                                 </div>
@@ -86,7 +99,9 @@ const Menu = () => {
                                 </div>
                               </div>
                             </div>
-                            {idx < products.length - 1 && <hr className="menuProductDivider" />}
+                            {idx < products.length - 1 && (
+                              <hr className="menuProductDivider" />
+                            )}
                           </React.Fragment>
                         ))
                       ) : (
