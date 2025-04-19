@@ -87,7 +87,7 @@ const CateringNavbar = () => {
                     </NavLink>
   
                     {/* NavLink Element */}
-                    <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                    <NavLink to="/apizza-catering" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                       <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                         <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">APIZZA Catering</p>
                       </div>

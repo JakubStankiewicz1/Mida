@@ -11,6 +11,7 @@ import MidaSouthEndEvents from "./pages/MidaSouthEndEvents/MidaSouthEndEvents";
 import MidaFenwayEvents from "./pages/MidaSouthEndEvents/MidaFenwayEvents";
 import GiftCards from "./pages/GiftCards/GiftCards";
 import MidaCatering from "./pages/MidaCatering/MidaCatering";
+import ApizzaCatering from "./pages/ApizzaCatering/ApizzaCatering";
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/midafenway-events" element={<MidaFenwayEvents />} />
         <Route path="/gift-cards" element={<GiftCards />} />
         <Route path="/mida-catering" element={<MidaCatering />} />
+        <Route path="/apizza-catering" element={<ApizzaCatering />} />
       </Routes>
     </div>
   );

@@ -34,6 +34,10 @@ import giftCardsLogo from "./giftCardsLogo.png";
 
 import cateringImgOne from "./cateringImgOne.jpg";
 
+import midaCateringImg from "./midaCateringImg.jpg";
+
+import apizzaCateringImg from "./apizzaCateringImg.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -63,4 +67,6 @@ export default {
   giftCardsFour,
   giftCardsLogo,
   cateringImgOne,
+  midaCateringImg,
+  apizzaCateringImg,
 };

@@ -3,6 +3,7 @@ import "./midaCatering.css";
 import CateringHero from "../../components/CateringHero/CateringHero";
 import assets from "../../assets/assets";
 import CateringProductInfo from "../../components/CateringProductInfo/CateringProductInfo";
+import Fotter from "../../components/Fotter/Fotter";
 
 const MidaCatering = () => {
   return (
@@ -409,11 +410,94 @@ const MidaCatering = () => {
 
 
 
+            {/* Sixth Part */}
+            <div className="midaCateringContainerFourthContainerSixth">
+                <div className="midaCateringContainerFourthContainerSixthContainer">
+                    <div className="midaCateringContainerFourthContainerSixthContainerOne">
+                        <p className="midaCateringContainerFourthContainerSixthContainerOneText">
+                            EXTRAS
+                        </p>
+                    </div>
+
+                    <div className="midaCateringContainerFourthContainerSixthContainerTwo">
+                        <div className="midaCateringContainerFourthContainerSixthContainerTwoContainer">
+                            <p className="midaCateringContainerFourthContainerSixthContainerTwoContainerText">
+                                Paper plates, utensils, serving utensils and napkins can be added on for an additional $1 per person.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            {/* Seventh Part */}
+            <div className="midaCateringContainerFourthContainerSeventh">
+                <div className="midaCateringContainerFourthContainerSeventhContainer">
+                    {/* Top Part */}
+                    <div className="midaCateringContainerFourthContainerSeventhContainerTop">
+                        <div className="midaCateringContainerFourthContainerSeventhContainerTopContainer">
+                            <p className="midaCateringContainerFourthContainerSeventhContainerTopContainerText">
+                                CATERING TERMS & CONDITIONS 
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Bottom Part */}
+                    <div className="midaCateringContainerFourthContainerSeventhContainerBottom">
+                        <div className="midaCateringContainerFourthContainerSeventhContainerBottomContainer">
+                            <ul>
+                                <li className="midaCateringContainerFourthContainerSeventhContainerBottomContainerText">All Food is subject to a 7% tax, 6 % taxable administrative fee, an optional 2% kitchen appreciation fee,  and a delivery charge when applicable
+
+</li>
+                                <li className="midaCateringContainerFourthContainerSeventhContainerBottomContainerText">There is no minimum order requirement.
+
+</li>
+                                <li className="midaCateringContainerFourthContainerSeventhContainerBottomContainerText">We request a minimum of 48-hour notice for all orders with exceptions when possible. If notice is not given in the specified windows, certain items may not be available.  Please email directly if your catering request is within 48 hours of the pick-up or delivery day.
+
+</li>
+                                <li className="midaCateringContainerFourthContainerSeventhContainerBottomContainerText">Cancellations within 48 hours are subject to 50% of the proposed cost 
+
+</li>
+                                <li className="midaCateringContainerFourthContainerSeventhContainerBottomContainerText">All delivery items require a 15-minute allowance for drop-off scheduling purposes.  Delivery instructions and parking information are required for prompt drop-off service 
+
+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            {/* Eight Part */}
+            <div className="midaCateringContainerFourthContainerEight">
+                <div className="midaCateringContainerFourthContainerEightContainer">
+                    <img src={assets.midaCateringImg} alt="" className="midaCateringContainerFourthContainerEightContainerImage" />
+                </div>
+            </div>
+
+
+
+            {/* Nine Part */}
+            <div className="midaCateringContainerFourthContainerNine">
+                <div className="midaCateringContainerFourthContainerNineContainer">
+                    <p className="midaCateringContainerFourthContainerNineContainerText">
+                        For specific catering questions, email   <span className="midaCateringContainerFourthContainerNineContainerTextSpan">melissa@midaboston.com</span>
+                    </p>
+                </div>
+            </div>
+
+
+
 
 
 
 
       </div>
+
+      <Fotter />
     </div>
   );
 };
