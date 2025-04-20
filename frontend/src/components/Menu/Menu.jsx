@@ -71,7 +71,7 @@ const Menu = () => {
                     <div className="menuContainerMiddleContainerDivProducts">
                       {products && products.length > 0 ? (
                         products.map((product, idx) => (
-                          <React.Fragment key={idx}>
+                          <React.Fragment key={idx} className="menuContainerMiddleContainerDivProductsReactFragment">
                             <div className="menuContainerMiddleContainerDivProductsList">
                               {/* Left Part */}
                               <div className="menuContainerMiddleContainerDivProductsListLeft">
@@ -100,7 +100,7 @@ const Menu = () => {
                               </div>
                             </div>
                             {idx < products.length - 1 && (
-                              <hr className="menuProductDivider" />
+                              <hr className="menuProductDividerHrEle" />
                             )}
                           </React.Fragment>
                         ))

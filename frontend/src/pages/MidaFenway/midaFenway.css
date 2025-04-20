@@ -1,0 +1,17 @@
+
+
+.locationsMenusContainerMainMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationsMenusContainerMainMenuContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

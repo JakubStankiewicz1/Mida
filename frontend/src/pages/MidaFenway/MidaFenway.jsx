@@ -62,6 +62,34 @@ const MidaFenway = () => {
             </div>
           </div>
 
+
+          {/* Hr Element */}
+          <div className="locationsMenusContainerMainHr">
+            <div className="locationsMenusContainerMainHrContainer">
+              <div className="locationsMenusContainerMainHrContainerDiv" />
+            </div>
+          </div>
+
+          {/* Text Section Two */}
+          <div className="locationsMenusContainerMainTextTwo">
+            <div className="locationsMenusContainerMainTextTwoContainer">
+              <p className="locationsMenusContainerMainTextTwoContainerTextOne">
+                <p className="locationsMenusContainerMainTextTwoContainerTextOneText">
+                  Parties of 9 or more people are considered a large party dinner/event at MIDA Fenway. 
+                </p>
+              </p>
+
+              <p className="locationsMenusContainerMainTextTwoContainerTextTwo">
+                <p className="locationsMenusContainerMainTextTwoContainerTextTwoText">
+                  If you are interested in having a large party here, please click on the Event Inquiry button below, or our Events page and fill out an inquiry form.
+                </p>
+              </p>
+
+
+
+            </div>
+          </div>
+
           {/* Button Event Inquiry */}
           <div className="locationsMenusContainerMainButton">
             <div className="locationsMenusContainerMainButtonContainer">
@@ -111,13 +139,23 @@ const MidaFenway = () => {
                       <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElement">
                         <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainer">
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
+                            Lunch
+                          </p>
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
+                            Monday – Friday – 11 AM – 4 PM
+                          </p>
+                          
+                        </div>
+                      </div>
+
+                      {/* Element Two */}
+                      <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwo">
+                        <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwoContainer">
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
                             Dinner
                           </p>
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                            Sunday – Thursday – 4 PM – 9 PM
-                          </p>
-                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                            Friday – Saturday – 4 PM – 10 PM
+                            Monday – Sunday – 4 PM – 10 PM
                           </p>
                         </div>
                       </div>
@@ -129,7 +167,7 @@ const MidaFenway = () => {
                             Brunch
                           </p>
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                            Saturday – Sunday – 10:30 AM – 4:00 PM
+                            Saturday – Sunday – 11 AM – 4 PM
                           </p>
                         </div>
                       </div>
@@ -141,7 +179,7 @@ const MidaFenway = () => {
                             Takeout
                           </p>
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                            Monday - Friday 4pm - 10:00pm
+                            Monday – Sunday – 11 AM – 9 PM
                           </p>
                         </div>
                       </div>
@@ -150,11 +188,11 @@ const MidaFenway = () => {
                       <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddress">
                         <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainer">
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainerText">
-                            65 Lewis Street
+                            1391 Boylston Street, 
                           </p>
 
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainerText">
-                            East Boston, MA 02128
+                            Boston, MA 02215
                           </p>
                         </div>
                       </div>
@@ -162,62 +200,10 @@ const MidaFenway = () => {
                       {/* Element Parkign & Directions: */}
                       <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections">
                         <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainer">
-                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerTextTitle">
-                            PARKING & DIRECTIONS:
-                          </p>
-
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
                             Please call us for additional assistance with
                             directions or parking.
                           </p>
-
-                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            Limited 2-hour parking is available on surrounding
-                            streets (Lewis St., Marginal St., S. Bremen St.,
-                            Sumner St., Orleans St.)
-                          </p>
-
-                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            The restaurant is a two-minute walk from the
-                            Maverick Blue Line T stop.
-                          </p>
-
-                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                            The restaurant is also accessible by public ferry
-                            from several locations Monday - Sunday from 11 AM -
-                            11 PM weather permitting:
-                          </p>
-
-                          <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerList">
-                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainer">
-                              <ul className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUl">
-                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
-                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
-                                    Charlestown Marina (1 8th st. Charlestown)
-                                  </p>
-                                </li>
-
-                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
-                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
-                                    New St. East Boston Docks (6 New Street)
-                                  </p>
-                                </li>
-
-                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
-                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
-                                    Lewis Wharf (1 East Pier Drive, East Boston)
-                                  </p>
-                                </li>
-
-                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
-                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
-                                    Fan Pier (10 Waterside Ave, Boston's
-                                    Seaport)
-                                  </p>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -245,7 +231,13 @@ const MidaFenway = () => {
             </div>
           </div>
 
-          <Menu />
+          <div className="locationsMenusContainerMainMenu">
+            <div className="locationsMenusContainerMainMenuContainer">
+              <Menu />
+            </div>
+          </div>
+
+          {/* <Menu /> */}
 
           {/* Part Top */}
           <div className="locationsMenusContainerMainTop">
@@ -298,7 +290,7 @@ const MidaFenway = () => {
             <div className="locationsMenusContainerMainHrBottomContainer">
               <div className="locationsMenusContainerMainHrBottomContainerOne">
                 <p className="locationsMenusContainerMainHrBottomContainerOneText">
-                  Contact
+                  Additional Contact 
                 </p>
               </div>
 

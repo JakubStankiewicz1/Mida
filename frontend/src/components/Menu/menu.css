@@ -1,12 +1,12 @@
 .menu {
   width: 72%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+  margin: 0 auto; /* Centers the component horizontally */
+  margin-top: 50px; /* Adjust top margin as needed */
+  /* background-color: red; */
 }
 
 .menuContainer {
-  max-width: 1200px;
+  /* max-width: 1200px; Ensure it doesn't exceed the parent width */
   margin: 0 auto;
 }
 
@@ -129,8 +129,22 @@
   width: 100%;
 }
 
+.menuContainerTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 50px; */
+}
+
 .menuContainerTopLineHr {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* height: 21px; */
 }
 
 .menuContainerTopLineHrDiv {
@@ -147,4 +161,16 @@
 
 .menuContainerSelectorHr.active {
   background-color: #fd9ca4;
+}
+
+
+
+
+.menuContainerMiddleContainerDivProductsReactFragment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: */
 }
