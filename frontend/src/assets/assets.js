@@ -41,6 +41,8 @@ import apizzaCateringImg from "./apizzaCateringImg.jpg";
 import apizzaImgOne from "./apizzaImgOne.jpg";
 import apizzaImgTwo from "./apizzaImgTwo.jpg";
 
+import midaFenwayImgOne from "./midaFenwayImgOne.jpg";
+
 export default {
   mainLogo,
   homeHero,
@@ -74,4 +76,5 @@ export default {
   apizzaCateringImg,
   apizzaImgOne,
   apizzaImgTwo,
+  midaFenwayImgOne,
 };

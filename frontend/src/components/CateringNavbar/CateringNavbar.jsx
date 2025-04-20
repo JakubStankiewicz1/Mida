@@ -53,14 +53,14 @@ const CateringNavbar = () => {
                     </NavLink>
   
                     {/* NavLink Element */}
-                    <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                    <NavLink to="/mida-fenway" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                       <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                         <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida Fenway</p>
                       </div>
                     </NavLink>
   
                     {/* NavLink Element */}
-                    <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                    <NavLink path="/apizza" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                       <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                         <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">APIZZA</p>
                       </div>
