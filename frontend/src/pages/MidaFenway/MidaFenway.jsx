@@ -48,12 +48,17 @@ const MidaFenway = () => {
               </p>
 
               <p className="locationsMenusContainerMainTextContainerText">
-                Parties of 9 or more people are considered a large group event.
+              Street parking is also available in the general vicinity.
               </p>
 
               <p className="locationsMenusContainerMainTextContainerText">
-              Street parking is also available in the general vicinity.
+              Parties larger than 6 guests should call the restaurant directly to book a table. 
               </p>
+
+              <p className="locationsMenusContainerMainTextContainerText">
+              Patio reservations are available on a same-day first-come basis only. Please call the restaurant the day of your reservation to secure patio seating. Requests for patio tables made through Open Table are not guaranteed. Patio availability is subject to change due to inclement weather.
+
+</p>
             </div>
           </div>
 
