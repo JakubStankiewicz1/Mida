@@ -49,3 +49,181 @@
     transform: scale(2.3);
     padding-left: 15px;
 }
+
+.orderOnlineContainerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.orderOnlineContainerBottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.orderOnlineContainerBottomContainerLeft {
+    display: flex;
+    flex: 1.08;
+    width: 100%;
+    height: 100%;
+}
+
+.orderOnlineContainerBottomContainerLeftContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.orderOnlineContainerBottomContainerRight {
+    display: flex;
+    flex: 3;
+    background-color: lightcyan;
+    width: 100%;
+    height: 100%;
+}
+
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+}
+
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelectContainerLeft {
+    display: flex;
+    flex: 1;
+    background-color: #F09494;
+    width: 100%;
+    height: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelectContainerRight {
+    display: flex;
+    flex: 1;
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelectContainerLeftContainerButtonText {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerTopSelectContainerRightContainerButtonText {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirst {
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerTitleText {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInput {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainerInput {
+    width: 100%;
+    height: 35px;
+    padding-left: 40px;
+    padding-right: 0px;
+    position: relative;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainerIconSearch {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainerIconAim {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainerIconSearch {
+    position: absolute;
+    left: 25px;
+    z-index: 10;
+}
+
+.orderOnlineContainerBottomContainerLeftContainerFirstContainerInputContainerIconAim {
+    position: absolute;
+    right: 35px;
+}
