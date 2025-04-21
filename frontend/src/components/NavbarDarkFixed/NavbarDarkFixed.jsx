@@ -41,7 +41,7 @@ const NavbarDarkFixed = () => {
                         <NavLink className="navbarDarkFixedDropdownMenuItem">Mida Newton</NavLink>
                         <NavLink to="/mida-boston" className="navbarDarkFixedDropdownMenuItem">Mida South End</NavLink>
                         <NavLink to="/mida-fenway" className="navbarDarkFixedDropdownMenuItem">Mida Fenway</NavLink>
-                        <NavLink className="navbarDarkFixedDropdownMenuItem">APIZZA</NavLink>
+                        <NavLink to="/apizza" className="navbarDarkFixedDropdownMenuItem">APIZZA</NavLink>
                     </div>
                 </div>
 

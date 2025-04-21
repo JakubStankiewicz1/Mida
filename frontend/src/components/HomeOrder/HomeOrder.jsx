@@ -6,7 +6,7 @@ const HomeOrder = () => {
   return (
     <div className='homeOrder'>
         <div className="homeOrderContainer">
-            <NavLink className="homeOrderContainerButton">
+            <NavLink to="/order-online" className="homeOrderContainerButton">
                 <p className="homeOrderContainerButtonText">
                     Order Online
                 </p>
