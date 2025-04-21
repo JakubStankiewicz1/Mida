@@ -200,12 +200,70 @@ const MidaFenway = () => {
                       {/* Element Parkign & Directions: */}
                       <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections">
                         <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainer">
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerTextTitle">
+                            PARKING & DIRECTIONS:
+                          </p>
+
                           <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
                             Please call us for additional assistance with
                             directions or parking.
                           </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                            Limited 2-hour parking is available on surrounding
+                            streets (Lewis St., Marginal St., S. Bremen St.,
+                            Sumner St., Orleans St.)
+                          </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                            The restaurant is a two-minute walk from the
+                            Maverick Blue Line T stop.
+                          </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                            The restaurant is also accessible by public ferry
+                            from several locations Monday - Sunday from 11 AM -
+                            11 PM weather permitting:
+                          </p>
+
+                          <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerList">
+                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainer">
+                              <ul className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUl">
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Charlestown Marina (1 8th st. Charlestown)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    New St. East Boston Docks (6 New Street)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Lewis Wharf (1 East Pier Drive, East Boston)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Fan Pier (10 Waterside Ave, Boston's
+                                    Seaport)
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
                       </div>
+
+
+
+
+
+
                     </div>
                   </div>
 

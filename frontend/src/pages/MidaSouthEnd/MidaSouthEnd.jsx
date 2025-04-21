@@ -24,7 +24,7 @@ const MidaSouthEnd = () => {
               {/* <LocationHero image={assets.midaFenwayImgOne} name={"MIDA FENWAY"} /> */}
               {/* <LocationReservation /> */}
     
-              <CateringHero image={assets.midaFenwayImgOne} title={"MIDA FENWAY"} />
+              <CateringHero image={assets.midaSouthEndImgOne} title={"Mida South End"} />
     
             <HomeOrder />
     
@@ -39,59 +39,39 @@ const MidaSouthEnd = () => {
                 <div className="locationsMenusContainerMainTextContainer">
                   <p className="locationsMenusContainerMainTextContainerText">
                   Reservations can be made in advance through OpenTable or by phone. 
-                  </p>
+
+</p>
     
                   <p className="locationsMenusContainerMainTextContainerText">
-                  Parking:
-                  </p>
+                  Patio reservations are available on a same-day, first-come basis only. Please call the restaurant the day of to secure patio seating. In case of inclement weather, patio reservations should call the restaurant directly to confirm indoor availability. Patio will be closed after October.
+
+</p>
     
                   <p className="locationsMenusContainerMainTextContainerText">
-                  We currently offer validation for the adjoining Fenway Triangle Garage (Fenway Triangle Trilogy, 180 Brookline Ave., Boston , MA 02215). It’s a $12 flat rate for up to 2 hours, a $15 flat rate for up to 3 hours, and then posted rates. 
-                  </p>
+                  For parties of 5-8 guests, reservations can be made between 4:00pm - 6:00pm or after 8:00pm by calling the restaurant directly. A credit card is required at the time of booking to secure a reservation.
+
+</p>
     
                   <p className="locationsMenusContainerMainTextContainerText">
-                  Street parking is also available in the general vicinity.
-                  </p>
+                  Being an intimate 54 seat restaurant, parties of 9 or more people are considered a large group event.  
+
+</p>
     
                   <p className="locationsMenusContainerMainTextContainerText">
-                  Parties larger than 6 guests should call the restaurant directly to book a table. 
-                  </p>
+                  If you are interested in having a large party here at MIDA, please click on the Event Inquiry button below, or on our Events page and fill out an inquiry form.
+
+</p>
     
-                  <p className="locationsMenusContainerMainTextContainerText">
+                  {/* <p className="locationsMenusContainerMainTextContainerText">
                   Patio reservations are available on a same-day first-come basis only. Please call the restaurant the day of your reservation to secure patio seating. Requests for patio tables made through Open Table are not guaranteed. Patio availability is subject to change due to inclement weather.
     
-    </p>
+    </p> */}
                 </div>
               </div>
-    
-    
-              {/* Hr Element */}
-              <div className="locationsMenusContainerMainHr">
-                <div className="locationsMenusContainerMainHrContainer">
-                  <div className="locationsMenusContainerMainHrContainerDiv" />
-                </div>
-              </div>
-    
-              {/* Text Section Two */}
-              <div className="locationsMenusContainerMainTextTwo">
-                <div className="locationsMenusContainerMainTextTwoContainer">
-                  <p className="locationsMenusContainerMainTextTwoContainerTextOne">
-                    <p className="locationsMenusContainerMainTextTwoContainerTextOneText">
-                      Parties of 9 or more people are considered a large party dinner/event at MIDA Fenway. 
-                    </p>
-                  </p>
-    
-                  <p className="locationsMenusContainerMainTextTwoContainerTextTwo">
-                    <p className="locationsMenusContainerMainTextTwoContainerTextTwoText">
-                      If you are interested in having a large party here, please click on the Event Inquiry button below, or our Events page and fill out an inquiry form.
-                    </p>
-                  </p>
-    
-    
-    
-                </div>
-              </div>
-    
+
+
+
+
               {/* Button Event Inquiry */}
               <div className="locationsMenusContainerMainButton">
                 <div className="locationsMenusContainerMainButtonContainer">
@@ -102,7 +82,8 @@ const MidaSouthEnd = () => {
                   </div>
                 </div>
               </div>
-    
+
+
               {/* Tel Number */}
               <div className="locationsMenusContainerMainTel">
                 <div className="locationsMenusContainerMainTelContainer">
@@ -112,12 +93,20 @@ const MidaSouthEnd = () => {
                 </div>
               </div>
     
+              
+    
+              
+    
               {/* Hr Element */}
               <div className="locationsMenusContainerMainHr">
                 <div className="locationsMenusContainerMainHrContainer">
                   <div className="locationsMenusContainerMainHrContainerDiv" />
                 </div>
               </div>
+
+
+
+
     
               {/* Home & Location */}
               <div className="locationsMenusContainerMainHomeLocation">
@@ -141,24 +130,19 @@ const MidaSouthEnd = () => {
                           <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElement">
                             <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainer">
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
-                                Lunch
-                              </p>
-                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                                Monday – Friday – 11 AM – 4 PM
-                              </p>
-                              
-                            </div>
-                          </div>
-    
-                          {/* Element Two */}
-                          <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwo">
-                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwoContainer">
-                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
                                 Dinner
                               </p>
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                                Monday – Sunday – 4 PM – 10 PM
+                              Sunday – Thursday 4 pm – 10 pm
+
                               </p>
+
+                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
+                              Friday – Saturday 4 pm – 11 pm
+
+
+                              </p>
+                              
                             </div>
                           </div>
     
@@ -169,13 +153,32 @@ const MidaSouthEnd = () => {
                                 Brunch
                               </p>
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
-                                Saturday – Sunday – 11 AM – 4 PM
-                              </p>
+                              Saturday – Sunday  10:30 am – 3:30 pm
+
+</p>
                             </div>
                           </div>
     
                           {/* Element Two */}
                           <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwo">
+                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwoContainer">
+                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
+                              Takeout
+                              </p>
+                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
+                              Monday – Friday 4 pm - 9:30pm
+
+</p>
+
+                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerText">
+                              Saturday - Sunday 11 am - 9:00 pm
+
+</p>
+                            </div>
+                          </div>
+    
+                          {/* Element Two */}
+                          {/* <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwo">
                             <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementTwoContainer">
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementContainerTextTitle">
                                 Takeout
@@ -184,30 +187,104 @@ const MidaSouthEnd = () => {
                                 Monday – Sunday – 11 AM – 9 PM
                               </p>
                             </div>
-                          </div>
+                          </div> */}
     
                           {/* Element Address */}
                           <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddress">
                             <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainer">
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainerText">
-                                1391 Boylston Street, 
+                              782 Tremont  St.
+
                               </p>
     
                               <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementAddressContainerText">
-                                Boston, MA 02215
+                              Boston, MA 02118
+
+
                               </p>
                             </div>
                           </div>
     
                           {/* Element Parkign & Directions: */}
-                          <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections">
-                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainer">
-                              <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
-                                Please call us for additional assistance with
-                                directions or parking.
-                              </p>
+                      <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirections">
+                        <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainer">
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerTextTitle">
+                          PARKING:
+
+                          </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                          The closest garage parking available is at the Stanhope Garage located at 277 Northampton St. (between Tremont St. and Columbus Ave) just a block from the restaurant. We are also lucky that two hour street parking is abundant on the side streets surrounding the restaurant.  
+
+
+                          </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                          Please call us for assistance with direction or parking.
+
+
+                          </p>
+{/* 
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                            The restaurant is a two-minute walk from the
+                            Maverick Blue Line T stop.
+                          </p>
+
+                          <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerText">
+                            The restaurant is also accessible by public ferryj
+                            from several locations Monday - Sunday from 11 AM -
+                            11 PM weather permitting:
+                          </p> */}
+
+                          {/* <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerList">
+                            <div className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainer">
+                              <ul className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUl">
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Charlestown Marina (1 8th st. Charlestown)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    New St. East Boston Docks (6 New Street)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Lewis Wharf (1 East Pier Drive, East Boston)
+                                  </p>
+                                </li>
+
+                                <li className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLi">
+                                  <p className="locationsMenusContainerMainHomeLocationContainerBottomContainerLeftContainerElementParkingDirectionsContainerListContainerUlLiText">
+                                    Fan Pier (10 Waterside Ave, Boston's
+                                    Seaport)
+                                  </p>
+                                </li>
+                              </ul>
                             </div>
-                          </div>
+                          </div> */}
+                        </div>
+                      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         </div>
                       </div>
     

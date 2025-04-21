@@ -15,3 +15,43 @@
     justify-content: center;
     align-items: center;
 }
+
+.locationsMenusContainerMainTextTwo {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.locationsMenusContainerMainTextTwoContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationsMenusContainerMainTextTwoContainerTextTwo {
+    margin-top: 15px;
+}
+
+
+.locationsMenusContainerMainButton {
+    margin-top: 30px;
+}
+
+.locationsMenusContainerMainTextTwoContainerTextOneText,
+.locationsMenusContainerMainTextTwoContainerTextTwoText {
+    text-align: center;
+    color: #404040;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
