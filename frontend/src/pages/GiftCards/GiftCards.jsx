@@ -2,15 +2,17 @@ import React from 'react';
 import "./giftCards.css";
 import assets from '../../assets/assets';
 
+import { NavLink } from 'react-router-dom';
+
 const GiftCards = () => {
   return (
     <div className="giftCards">
         <div className="giftCardsContainer">
             {/* First Part */}
             <div className="giftCardsContainerFirst">
-                <div className="giftCardsContainerFirstContainer">
+                <NavLink to="/" className="giftCardsContainerFirstContainer">
                     <img src={assets.giftCardsLogo} alt="" className='giftCardsContainerFirstContainerImage' />
-                </div>
+                </NavLink>
             </div>
 
             {/* Second Part */}
