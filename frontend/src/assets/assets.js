@@ -37,6 +37,7 @@ import midaFenwayImgOne from "./midaFenwayImgOne.jpg";
 
 import midaSouthEndImgOne from "./midaSouthEndImgOne.jpg";''
 
+import midaNewtonImgOne from "./MidaNewtonImgOne.jpg";
 
 export default {
   mainLogo,
@@ -73,4 +74,5 @@ export default {
   apizzaImgTwo,
   midaFenwayImgOne,
   midaSouthEndImgOne,
+  midaNewtonImgOne
 };

@@ -38,7 +38,7 @@ const NavbarDarkFixed = () => {
                     </div>
                     <div className={`navbarDarkFixedDropdownMenuOne ${locationsDropdown ? 'visible' : ''}`}>
                         <NavLink to="/mida-east-boston" className="navbarDarkFixedDropdownMenuItem">Mida East Boston</NavLink>
-                        <NavLink className="navbarDarkFixedDropdownMenuItem">Mida Newton</NavLink>
+                        <NavLink to="/mida-newton" className="navbarDarkFixedDropdownMenuItem">Mida Newton</NavLink>
                         <NavLink to="/mida-boston" className="navbarDarkFixedDropdownMenuItem">Mida South End</NavLink>
                         <NavLink to="/mida-fenway" className="navbarDarkFixedDropdownMenuItem">Mida Fenway</NavLink>
                         <NavLink to="/apizza" className="navbarDarkFixedDropdownMenuItem">APIZZA</NavLink>
