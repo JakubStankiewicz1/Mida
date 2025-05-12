@@ -39,6 +39,8 @@ import midaSouthEndImgOne from "./midaSouthEndImgOne.jpg";''
 
 import midaNewtonImgOne from "./MidaNewtonImgOne.jpg";
 
+import updateReservationImg from "./updateReservationImg.png";
+
 export default {
   mainLogo,
   homeHero,

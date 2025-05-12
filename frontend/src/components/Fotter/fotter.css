@@ -125,6 +125,10 @@
     transform: none;
 }
 
+.fotterContainerThirdContainerRightContainer {
+    cursor: pointer;
+}
+
 .fotterContainerThirdContainerRightContainerButton {
     width: 136px;
     height: 50px;
