@@ -117,7 +117,7 @@ const Navbar = () => {
               <div className="navbarContainerRightContainerEleDropdownMenuOne">
                 <div className="navbarContainerRightContainerEleDropdownMenuContainerOne">
                   {/* NavLink Element */}
-                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                  <NavLink to="/mida-east-boston-events" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                       <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida East Boston Events</p>
                     </div>
@@ -131,7 +131,7 @@ const Navbar = () => {
                   </NavLink>
 
                   {/* NavLink Element */}
-                  <NavLink className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
+                  <NavLink to="/mida-south-end-events" className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkOne">
                     <div className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerOne">
                       <p className="navbarContainerRightContainerEleDropdownMenuContainerNavLinkContainerTextOne">Mida South End Events</p>
                     </div>
@@ -148,7 +148,7 @@ const Navbar = () => {
             </NavLink>
 
             {/* Navbar Element */}
-            <NavLink className="navbarContainerRightContainerNavbar">
+            <NavLink to="/gift-cards" className="navbarContainerRightContainerNavbar">
               <div className="navbarContainerRightContainerNavbarContainer">
                 <p className="navbarContainerRightContainerNavbarContainerText">Gift cards</p>
               </div>
